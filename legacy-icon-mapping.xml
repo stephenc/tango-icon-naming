@@ -80,6 +80,12 @@
 	<icon name="view-sort-descending">
 	    <link>gtk-sort-descending</link>
 	</icon>
+	<icon name="system-log-out">
+	    <link>gnome-logout</link>
+	</icon>
+	<icon name="system-search">
+	    <link>gnome-searchtool</link>
+	</icon>
     </context>
     <context dir="apps">
 	<icon name="accessories-calculator">
@@ -93,6 +99,7 @@
 	<icon name="help-browser">
 	    <link>khelpcenter</link>
 	    <link>susehelpcenter</link>
+	    <link>gnome-help</link>
 	</icon>
 	<icon name="internet-web-browser">
 	    <link>browser</link>
