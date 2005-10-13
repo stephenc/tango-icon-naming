@@ -1,5 +1,9 @@
 2005-10-13  Rodney Dawes  <dobey@novell.com>
 
+	* configure.ac: Up version to 0.3.0 for release
+
+2005-10-13  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Add links so that logout, search, and help
 	show up properly in gnome. Patch from Steven Garrity
 
