@@ -21,37 +21,46 @@
 	</icon>
 	<icon name="document-print">
 	    <link>gtk-print</link>
+	    <link>fileprint</link>
 	</icon>
 	<icon name="go-bottom">
 	    <link>gtk-goto-bottom</link>
+	    <link>bottom</link>
 	</icon>
 	<icon name="go-down">
 	    <link>gtk-go-down</link>
 	    <link>down</link>
 	</icon>
 	<icon name="go-first">
-	    <link>gtk-goto-first</link>
+	    <link>gtk-goto-first-ltr</link>
+	    <link>gtk-goto-last-rtl</link>
 	</icon>
 	<icon name="go-home">
 	    <link>gtk-home</link>
 	    <link>gohome</link>
+	    <link>kfm_home</link>
 	</icon>
 	<icon name="go-jump">
-	    <link>gtk-jump-to</link>
+	    <link>gtk-jump-to-ltr</link>
+	    <link>gtk-jump-to-rtl</link>
 	</icon>
 	<icon name="go-last">
-	    <link>gtk-goto-last</link>
+	    <link>gtk-goto-last-ltr</link>
+	    <link>gtk-goto-first-rtl</link>
 	</icon>
 	<icon name="go-next">
-	    <link>gtk-go-forward</link>
+	    <link>gtk-go-forward-ltr</link>
+	    <link>gtk-go-back-rtl</link>
 	    <link>forward</link>
 	</icon>
 	<icon name="go-previous">
-	    <link>gtk-go-back</link>
+	    <link>gtk-go-back-ltr</link>
+	    <link>gtk-go-forward-rtl</link>
 	    <link>back</link>
 	</icon>
 	<icon name="go-top">
 	    <link>gtk-goto-top</link>
+	    <link>top</link>
 	</icon>
 	<icon name="go-up">
 	    <link>gtk-go-up</link>
@@ -59,6 +68,7 @@
 	</icon>
 	<icon name="view-refresh">
 	    <link>gtk-refresh</link>
+	    <link>reload</link>
 	</icon>
 	<icon name="view-sort-ascending">
 	    <link>gtk-sort-ascending</link>
@@ -70,6 +80,7 @@
     <context dir="apps">
 	<icon name="accessories-calculator">
 	    <link>gnome-calculator</link>
+	    <link>kcalc</link>
 	    <link>calc</link>
 	</icon>
 	<icon name="accessories-text-editor">
@@ -103,12 +114,14 @@
 	</icon>
 	<icon name="preferences-desktop-theme">
 	    <link>gnome-settings-theme</link>
+	    <link>style</link>
 	</icon>
 	<icon name="preferences-system-session">
 	    <link>gnome-session</link>
 	</icon>
 	<icon name="preferences-system-windows">
 	    <link>gnome-window-manager</link>
+	    <link>kcmkwm</link>
 	</icon>
 	<icon name="utilities-terminal">
 	    <link>gnome-terminal</link>
@@ -127,10 +140,12 @@
 	</icon>
 	<icon name="camera-video">
 	    <link>camera</link>
+	    <link>camera_unmount</link>
 	</icon>
 	<icon name="computer">
 	    <link>gnome-dev-computer</link>
 	    <link>gnome-fs-client</link>
+	    <link>system</link>
 	</icon>
 	<icon name="drive-cdrom">
 	    <link>gnome-dev-cdrom</link>
@@ -162,6 +177,7 @@
 	    <link>gnome-dev-media-ms</link>
 	    <link>gnome-dev-media-sdmmc</link>
 	    <link>gnome-dev-media-sm</link>
+	    <link>usbpendrive_umount</link>
 	</icon>
 	<icon name="input-gaming">
 	    <link>joystick</link>
@@ -169,6 +185,7 @@
 	</icon>
 	<icon name="input-keyboard">
 	    <link>gnome-dev-keyboard</link>
+	    <link>keyboard</link>
 	</icon>
 	<icon name="input-mouse">
 	    <link>gnome-dev-mouse-ball</link>
@@ -191,6 +208,7 @@
 	    <link>gnome-dev-printer</link>
 	    <link>printer-remote</link>
 	    <link>yast_printer</link>
+	    <link>printer1</link>
 	</icon>
 	<icon name="video-display">
 	    <link>display</link>
@@ -206,6 +224,7 @@
 	<icon name="audio-x-generic">
 	    <link>gnome-mime-audio</link>
 	    <link>gnome-mime-application-ogg</link>
+	    <link>sound</link>
 	</icon>
 	<icon name="image-x-generic">
 	    <link>gnome-mime-image</link>
@@ -224,11 +243,17 @@
 	    <link>gnome-mime-application-x-deb</link>
 	    <link>gnome-mime-application-x-gzip</link>
 	    <link>gnome-mime-application-x-rpm</link>
+	    <link>deb</link>
+	    <link>rpm</link>
+	    <link>tar</link>
+	    <link>tgz</link>
+	    <link>zip</link>
 	</icon>
 	<icon name="text-html">
 	    <link>gnome-mime-text-html</link>
 	    <link>gnome-mime-text-vnd.wap.wml</link>
 	    <link>gnome-mime-application-x-php</link>
+	    <link>html</link>
 	</icon>
 	<icon name="text-x-generic">
 	    <link>gnome-mime-text</link>
@@ -239,9 +264,11 @@
 	</icon>
 	<icon name="video-x-generic">
 	    <link>gnome-mime-video</link>
+	    <link>video</link>
 	</icon>
 	<icon name="x-directory-desktop">
 	    <link>gnome-fs-desktop</link>
+	    <link>desktop</link>
 	</icon>
 	<icon name="x-directory-normal">
 	    <link>gnome-fs-directory</link>
@@ -252,6 +279,7 @@
 	</icon>
 	<icon name="x-directory-normal-home">
 	    <link>gnome-fs-home</link>
+	    <link>folder_home</link>
 	</icon>
 	<icon name="x-directory-normal-visiting">
 	    <link>gnome-fs-directory-visiting</link>
@@ -263,6 +291,7 @@
 	    <link>gnome-fs-nfs</link>
 	    <link>gnome-fs-smb</link>
 	    <link>gnome-fs-ssh</link>
+	    <link>network_local</link>
 	</icon>
 	<icon name="x-directory-remote-ftp">
 	    <link>gnome-fs-ftp</link>
@@ -276,8 +305,13 @@
 	<icon name="x-directory-remote-ssh">
 	    <link>gnome-fs-ssh</link>
 	</icon>
+	<icon name="x-directory-remote-server">
+	    <link>gnome-fs-server</link>
+	    <link>server</link>
+	</icon>
 	<icon name="x-directory-remote-workgroup">
 	    <link>gnome-fs-network</link>
+	    <link>network</link>
 	</icon>
 	<icon name="x-directory-trash">
 	    <link>gnome-fs-trash-empty</link>
@@ -296,10 +330,12 @@
 	<icon name="dialog-error">
 	    <link>gtk-dialog-error</link>
 	    <link>error</link>
+	    <link>messagebox_critical</link>
 	</icon>
 	<icon name="dialog-information">
 	    <link>gtk-dialog-info</link>
 	    <link>info</link>
+	    <link>messagebox_info</link>
 	</icon>
 	<icon name="dialog-password">
 	    <link>gtk-dialog-authentication</link>
@@ -309,6 +345,7 @@
 	</icon>
 	<icon name="dialog-warning">
 	    <link>gtk-dialog-warning</link>
+	    <link>messagebox_warning</link>
 	</icon>
 	<icon name="image-loading">
 	    <link>gnome-fs-loading-icon</link>
