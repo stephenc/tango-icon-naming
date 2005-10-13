@@ -1,0 +1,320 @@
+<?xml version="1.0" ?>
+<!DOCTYPE mapping SYSTEM "legacy-icon-mapping.dtd">
+
+<mapping>
+    <context dir="actions">
+	<icon name="address-book-new">
+	    <link>stock_new-address-book</link>
+	</icon>
+	<icon name="application-exit">
+	    <link>gtk-quit</link>
+	    <link>exit</link>
+	</icon>
+	<icon name="dialog-cancel">
+	    <link>gtk-cancel</link>
+	    <link>button_cancel</link>
+	    <link>cancel</link>
+	</icon>
+	<icon name="document-new">
+	    <link>gtk-new</link>
+	    <link>filenew</link>
+	</icon>
+	<icon name="document-print">
+	    <link>gtk-print</link>
+	</icon>
+	<icon name="go-bottom">
+	    <link>gtk-goto-bottom</link>
+	</icon>
+	<icon name="go-down">
+	    <link>gtk-go-down</link>
+	    <link>down</link>
+	</icon>
+	<icon name="go-first">
+	    <link>gtk-goto-first</link>
+	</icon>
+	<icon name="go-home">
+	    <link>gtk-home</link>
+	    <link>gohome</link>
+	</icon>
+	<icon name="go-jump">
+	    <link>gtk-jump-to</link>
+	</icon>
+	<icon name="go-last">
+	    <link>gtk-goto-last</link>
+	</icon>
+	<icon name="go-next">
+	    <link>gtk-go-forward</link>
+	    <link>forward</link>
+	</icon>
+	<icon name="go-previous">
+	    <link>gtk-go-back</link>
+	    <link>back</link>
+	</icon>
+	<icon name="go-top">
+	    <link>gtk-goto-top</link>
+	</icon>
+	<icon name="go-up">
+	    <link>gtk-go-up</link>
+	    <link>up</link>
+	</icon>
+	<icon name="view-refresh">
+	    <link>gtk-refresh</link>
+	</icon>
+	<icon name="view-sort-ascending">
+	    <link>gtk-sort-ascending</link>
+	</icon>
+	<icon name="view-sort-descending">
+	    <link>gtk-sort-descending</link>
+	</icon>
+    </context>
+    <context dir="apps">
+	<icon name="accessories-calculator">
+	    <link>gnome-calculator</link>
+	    <link>calc</link>
+	</icon>
+	<icon name="accessories-text-editor">
+	    <link>text-editor</link>
+	</icon>
+	<icon name="help-browser">
+	    <link>khelpcenter</link>
+	    <link>susehelpcenter</link>
+	</icon>
+	<icon name="internet-web-browser">
+	    <link>browser</link>
+	    <link>gnome-globe</link>
+	</icon>
+	<icon name="preferences-desktop-accessibility">
+	    <link>accessibility-directory</link>
+	    <link>access</link>
+	</icon>
+	<icon name="preferences-desktop-font">
+	    <link>gnome-settings-font</link>
+	    <link>fonts</link>
+	</icon>
+	<icon name="preferences-desktop-screensaver">
+	    <link>screensaver</link>
+	    <link>kscreensaver</link>
+	    <link>xscreensaver</link>
+	</icon>
+	<icon name="preferences-desktop-wallpaper">
+	    <link>wallpaper</link>
+	    <link>background</link>
+	    <link>gnome-settings-background</link>
+	</icon>
+	<icon name="preferences-desktop-theme">
+	    <link>gnome-settings-theme</link>
+	</icon>
+	<icon name="preferences-system-session">
+	    <link>gnome-session</link>
+	</icon>
+	<icon name="preferences-system-windows">
+	    <link>gnome-window-manager</link>
+	</icon>
+	<icon name="utilities-terminal">
+	    <link>gnome-terminal</link>
+	    <link>konsole</link>
+	</icon>
+    </context>
+    <context dir="categories">
+	<icon name="preferences-desktop">
+	    <link>gnome-settings</link>
+	    <link>gtk-preferences</link>
+	</icon>
+    </context>
+    <context dir="devices">
+	<icon name="audio-card">
+	    <link>yast_soundcard</link>
+	</icon>
+	<icon name="camera-video">
+	    <link>camera</link>
+	</icon>
+	<icon name="computer">
+	    <link>gnome-dev-computer</link>
+	    <link>gnome-fs-client</link>
+	</icon>
+	<icon name="drive-cdrom">
+	    <link>gnome-dev-cdrom</link>
+	    <link>gnome-dev-dvd</link>
+	    <link>gnome-dev-cdrom-audio</link>
+	    <link>gnome-dev-disc-cdr</link>
+	    <link>gnome-dev-disc-cdrw</link>
+	    <link>gnome-dev-disc-dvdr</link>
+	    <link>gnome-dev-disc-dvdr-plus</link>
+	    <link>gnome-dev-disc-dvdram</link>
+	    <link>gnome-dev-disc-dvdrom</link>
+	    <link>gnome-dev-disc-dvdrw</link>
+	</icon>
+	<icon name="drive-harddisk">
+	    <link>gnome-dev-harddisk</link>
+	    <link>gnome-dev-harddisk-usb</link>
+	    <link>gnome-dev-harddisk-1394</link>
+	    <link>harddrive</link>
+	    <link>hdd_unmount</link>
+	    <link>yast_HD</link>
+	    <link>yast_idetude</link>
+	</icon>
+	<icon name="drive-removable-media">
+	    <link>gnome-dev-removable</link>
+	    <link>gnome-dev-removable-usb</link>
+	    <link>gnome-dev-removable-1394</link>
+	    <link>gnome-dev-media-cf</link>
+	    <link>gnome-dev-media-memory</link>
+	    <link>gnome-dev-media-ms</link>
+	    <link>gnome-dev-media-sdmmc</link>
+	    <link>gnome-dev-media-sm</link>
+	</icon>
+	<icon name="input-gaming">
+	    <link>joystick</link>
+	    <link>yast_joystick</link>
+	</icon>
+	<icon name="input-keyboard">
+	    <link>gnome-dev-keyboard</link>
+	</icon>
+	<icon name="input-mouse">
+	    <link>gnome-dev-mouse-ball</link>
+	    <link>gnome-dev-mouse-optical</link>
+	    <link>mouse</link>
+	    <link>yast_mouse</link>
+	</icon>
+	<icon name="media-cdrom">
+	    <link>gnome-dev-cdrom-audio</link>
+	    <link>cdrom_unmount</link>
+	    <link>cdwriter_unmount</link>
+	    <link>dvd_unmount</link>
+	    <link>gnome-dev-disc-dvdr-plus</link>
+	    <link>gnome-dev-disc-dvdr</link>
+	    <link>gnome-dev-disc-dvdram</link>
+	    <link>gnome-dev-disc-dvdrom</link>
+	    <link>gnome-dev-disc-dvdrw</link>
+	</icon>
+	<icon name="printer">
+	    <link>gnome-dev-printer</link>
+	    <link>printer-remote</link>
+	    <link>yast_printer</link>
+	</icon>
+	<icon name="video-display">
+	    <link>display</link>
+	</icon>
+    </context>
+    <context dir="mimetypes">
+	<icon name="application-x-executable">
+	    <link>gnome-fs-executable</link>
+	    <link>gnome-mime-application-x-executable</link>
+	    <link>gnome-mime-application-x-ms-dos-executable</link>
+	    <link>exec</link>
+	</icon>
+	<icon name="audio-x-generic">
+	    <link>gnome-mime-audio</link>
+	    <link>gnome-mime-application-ogg</link>
+	</icon>
+	<icon name="image-x-generic">
+	    <link>gnome-mime-image</link>
+	    <link>image</link>
+	</icon>
+	<icon name="package-x-generic">
+	    <link>gnome-package</link>
+	    <link>gnome-mime-application-zip</link>
+	    <link>gnome-mime-application-x-archive</link>
+	    <link>gnome-mime-application-x-arj</link>
+	    <link>gnome-mime-application-x-bzip</link>
+	    <link>gnome-mime-application-x-bzip-compressed-tar</link>
+	    <link>gnome-mime-application-x-compress</link>
+	    <link>gnome-mime-application-x-compressed-tar</link>
+	    <link>gnome-mime-application-x-cpio</link>
+	    <link>gnome-mime-application-x-deb</link>
+	    <link>gnome-mime-application-x-gzip</link>
+	    <link>gnome-mime-application-x-rpm</link>
+	</icon>
+	<icon name="text-html">
+	    <link>gnome-mime-text-html</link>
+	    <link>gnome-mime-text-vnd.wap.wml</link>
+	    <link>gnome-mime-application-x-php</link>
+	</icon>
+	<icon name="text-x-generic">
+	    <link>gnome-mime-text</link>
+	    <link>ascii</link>
+	    <link>mime_ascii</link>
+	    <link>txt</link>
+	    <link>gnome-fs-regular</link>
+	</icon>
+	<icon name="video-x-generic">
+	    <link>gnome-mime-video</link>
+	</icon>
+	<icon name="x-directory-desktop">
+	    <link>gnome-fs-desktop</link>
+	</icon>
+	<icon name="x-directory-normal">
+	    <link>gnome-fs-directory</link>
+	    <link>folder</link>
+	</icon>
+	<icon name="x-directory-normal-drag-accept">
+	    <link>gnome-fs-directory-accept</link>
+	</icon>
+	<icon name="x-directory-normal-home">
+	    <link>gnome-fs-home</link>
+	</icon>
+	<icon name="x-directory-normal-visiting">
+	    <link>gnome-fs-directory-visiting</link>
+	    <link>folder_open</link>
+	</icon>
+	<icon name="x-directory-remote">
+	    <link>gnome-fs-share</link>
+	    <link>gnome-fs-ftp</link>
+	    <link>gnome-fs-nfs</link>
+	    <link>gnome-fs-smb</link>
+	    <link>gnome-fs-ssh</link>
+	</icon>
+	<icon name="x-directory-remote-ftp">
+	    <link>gnome-fs-ftp</link>
+	</icon>
+	<icon name="x-directory-remote-nfs">
+	    <link>gnome-fs-nfs</link>
+	</icon>
+	<icon name="x-directory-remote-smb">
+	    <link>gnome-fs-smb</link>
+	</icon>
+	<icon name="x-directory-remote-ssh">
+	    <link>gnome-fs-ssh</link>
+	</icon>
+	<icon name="x-directory-remote-workgroup">
+	    <link>gnome-fs-network</link>
+	</icon>
+	<icon name="x-directory-trash">
+	    <link>gnome-fs-trash-empty</link>
+	    <link>trashcan_empty</link>
+	</icon>
+	<icon name="x-directory-trash-full">
+	    <link>gnome-fs-trash-full</link>
+	    <link>trashcan_full</link>
+	</icon>
+	<icon name="x-office-spreadsheet">
+	    <link>gnome-mime-application-x-gnumeric</link>
+	    <link>spreadsheet</link>
+	</icon>
+    </context>
+    <context dir="status">
+	<icon name="dialog-error">
+	    <link>gtk-dialog-error</link>
+	    <link>error</link>
+	</icon>
+	<icon name="dialog-information">
+	    <link>gtk-dialog-info</link>
+	    <link>info</link>
+	</icon>
+	<icon name="dialog-password">
+	    <link>gtk-dialog-authentication</link>
+	</icon>
+	<icon name="dialog-question">
+	    <link>gtk-dialog-question</link>
+	</icon>
+	<icon name="dialog-warning">
+	    <link>gtk-dialog-warning</link>
+	</icon>
+	<icon name="image-loading">
+	    <link>gnome-fs-loading-icon</link>
+	</icon>
+	<icon name="image-missing">
+	    <link>gtk-missing-image</link>
+	</icon>
+    </context>
+</mapping>

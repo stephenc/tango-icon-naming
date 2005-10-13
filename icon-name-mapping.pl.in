@@ -1,0 +1,72 @@
+#!@PERL@ -w
+# -*- Mode: perl; indent-tabs-mode: nil; c-basic-offset: 4  -*-
+
+#############################################################################
+## Copyright (C) 2005 Novell, Inc.
+##
+## Authors: Rodney Dawes <dobey@novell.com>
+##
+
+use strict;
+use XML::Simple;
+use Getopt::Long;
+
+my $PROGRAM = "icon-name-mapping";
+
+my $condir;
+
+############################################################################
+my @default_getopt_config = ("permute", "pass_through", "bundling",
+			     "no_auto_abbrev", "no_ignore_case");
+
+Getopt::Long::Configure (@default_getopt_config);
+GetOptions ("help|h" => \&usage,
+	    "context|c=s" => \$condir);
+
+
+############################################################################
+
+sub tls_load_mapping {
+    my $filename = shift;
+
+    my $mapping = XML::Simple::XMLin ($filename,
+				      keyattr => [ qw(dir) ],
+				      forcearray => [ qw(context icon link) ]);
+    return $mapping;
+}
+
+sub tls_map_icons {
+    my $mapping = shift;
+    my $dirname = shift;
+
+    print "Setting up icon mapping for: $dirname\n";
+    chomp (my $cwd = `pwd`);
+    chdir $dirname;
+    foreach my $icon (@{$mapping->{context}->{$dirname}->{icon}}) {
+        if (-f "$icon->{name}.png") {
+            foreach my $legacy (@{$icon->{link}}) {
+                system ("ln -s $icon->{name}.png $legacy.png")
+                    if (! -e "$legacy.png");
+            }
+        } elsif (-f "$icon->{name}.svg") {
+            foreach my $legacy (@{$icon->{link}}) {
+                system ("ln -s $icon->{name}.svg $legacy.svg")
+                    if (! -e "$legacy.svg");
+            }
+        }
+    }
+    chdir $cwd;
+}
+
+sub usage {
+    print "Usage: $PROGRAM [OPTIONS] ...
+
+  -c, --context=<dirname>       Set up mapping for Context <dirname>
+
+";
+
+    exit 1;
+}
+
+my $iconmap = tls_load_mapping ("@DATADIR@/legacy-icon-mapping.xml");
+tls_map_icons ($iconmap, $condir);

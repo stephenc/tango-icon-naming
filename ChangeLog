@@ -1,0 +1,53 @@
+2005-10-09  Jakub Steiner <jimmac@ximian.com>
+
+	* legacy-icon-mapping.xml: add application/zip
+	
+2005-10-07  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Update to include screensaver as a link to
+	preferences-desktop-screensaver again
+	
+2005-10-06  Rodney Dawes  <dobey@novell.com>
+
+	* configure.ac: Up version to 0.2.0 for release
+
+2005-10-06  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Update with a bunch of new icons and links
+	
+2005-09-22  Jakub Steiner <jimmac@ximian.com>
+
+	* legacy-icon-mapping.xml: accessories-text-editor
+
+2005-09-14  Jakub Steiner <jimmac@ximian.com>
+
+	* legacy-icon-mapping.xml: session
+	* legacy-icon-mapping.xml: theme
+
+2005-09-07  Jakub Steiner <jimmac@ximian.com>
+
+	* legacy-icon-mapping.xml: accessibility
+
+2005-09-07  Jakub Steiner <jimmac@ximian.com>
+
+	* legacy-icon-mapping.xml: wallpaper, screensaver and font setting
+	  mappings.
+	
+2005-08-10  Jakub Steiner <jimmac@ximian.com>
+
+	* legacy-icon-mapping.xml: gnome-fs-loading-icon for load-thumbnail
+
+2005-06-19  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Move the gnome-dev-dvd link to point to
+	the drive-cdrom icon
+	Remove the image link from the package-x-generic type
+	Add a bunch of application/x-foo types to link to package-x-generic
+
+2005-06-16  Jakub Steiner <jimmac@ximian.com>
+
+	* legacy-icon-mapping.xml: gnome-package and gnome-de-disc* stuff
+	
+2005-05-24  Rodney Dawes  <dobey@novell.com>
+
+	* *: Initial import to CVS
