@@ -15,6 +15,10 @@
 	    <link>button_cancel</link>
 	    <link>cancel</link>
 	</icon>
+	<icon name="edit-paste">
+	    <link>gtk-paste</link>
+	    <link>editpaste</link>
+	</icon>
 	<icon name="document-new">
 	    <link>gtk-new</link>
 	    <link>filenew</link>
@@ -122,6 +126,9 @@
 	<icon name="preferences-system-windows">
 	    <link>gnome-window-manager</link>
 	    <link>kcmkwm</link>
+	</icon>
+	<icon name="utilities-system-monitor">
+	    <link>gnome-monitor</link>
 	</icon>
 	<icon name="utilities-terminal">
 	    <link>gnome-terminal</link>
