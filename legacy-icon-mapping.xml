@@ -10,6 +10,9 @@
 	    <link>gtk-quit</link>
 	    <link>exit</link>
 	</icon>
+	<icon name="appointment-new">
+	    <link>appointment</link>
+	</icon>
 	<icon name="dialog-cancel">
 	    <link>gtk-cancel</link>
 	    <link>button_cancel</link>
@@ -82,9 +85,11 @@
 	</icon>
 	<icon name="system-log-out">
 	    <link>gnome-logout</link>
+	    <link>exit</link>
 	</icon>
 	<icon name="system-search">
 	    <link>gnome-searchtool</link>
+	    <link>search</link>
 	</icon>
     </context>
     <context dir="apps">
@@ -95,11 +100,15 @@
 	</icon>
 	<icon name="accessories-text-editor">
 	    <link>text-editor</link>
+	    <link>kedit</link>
 	</icon>
 	<icon name="help-browser">
 	    <link>khelpcenter</link>
 	    <link>susehelpcenter</link>
 	    <link>gnome-help</link>
+	</icon>
+	<icon name="internet-mail">
+	    <link>kmail</link>
 	</icon>
 	<icon name="internet-web-browser">
 	    <link>browser</link>
@@ -133,6 +142,17 @@
 	<icon name="preferences-system-windows">
 	    <link>gnome-window-manager</link>
 	    <link>kcmkwm</link>
+	</icon>
+	<icon name="system-file-manager">
+	    <link>file-manager</link>
+	    <link>kfm</link>
+	</icon>
+	<icon name="system-lock-screen">
+	    <link>gnome-lockscreen</link>
+	    <link>lock</link>
+	</icon>
+	<icon name="system-users">
+	    <link>kuser</link>
 	</icon>
 	<icon name="utilities-system-monitor">
 	    <link>gnome-monitor</link>
@@ -200,6 +220,7 @@
 	<icon name="input-keyboard">
 	    <link>gnome-dev-keyboard</link>
 	    <link>keyboard</link>
+	    <link>kxkb</link>
 	</icon>
 	<icon name="input-mouse">
 	    <link>gnome-dev-mouse-ball</link>
@@ -312,6 +333,7 @@
 	</icon>
 	<icon name="x-directory-remote-nfs">
 	    <link>gnome-fs-nfs</link>
+            <link>nfs_unmount</link>
 	</icon>
 	<icon name="x-directory-remote-smb">
 	    <link>gnome-fs-smb</link>
@@ -356,10 +378,12 @@
 	</icon>
 	<icon name="dialog-question">
 	    <link>gtk-dialog-question</link>
+            <link>help</link>
 	</icon>
 	<icon name="dialog-warning">
 	    <link>gtk-dialog-warning</link>
 	    <link>messagebox_warning</link>
+	    <link>important</link>
 	</icon>
 	<icon name="image-loading">
 	    <link>gnome-fs-loading-icon</link>
