@@ -1,3 +1,8 @@
+2005-10-15  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Few more KDE links from Niko Mirthes
+	Add stock_new-appointment and web-browser links for GNOME
+
 2005-10-14  Rodney Dawes  <dobey@novell.com>
 
 	* legacy-icon-mapping.xml: Add more KDE links. Patch from Niko Mirthes

@@ -11,6 +11,7 @@
 	    <link>exit</link>
 	</icon>
 	<icon name="appointment-new">
+	    <link>stock_new-appointment</link>
 	    <link>appointment</link>
 	</icon>
 	<icon name="dialog-cancel">
@@ -109,10 +110,12 @@
 	</icon>
 	<icon name="internet-mail">
 	    <link>kmail</link>
+	    <link>email</link>
 	</icon>
 	<icon name="internet-web-browser">
 	    <link>browser</link>
 	    <link>gnome-globe</link>
+	    <link>web-browser</link>
 	</icon>
 	<icon name="preferences-desktop-accessibility">
 	    <link>accessibility-directory</link>
@@ -142,6 +145,7 @@
 	<icon name="preferences-system-windows">
 	    <link>gnome-window-manager</link>
 	    <link>kcmkwm</link>
+	    <link>kwin</link>
 	</icon>
 	<icon name="system-file-manager">
 	    <link>file-manager</link>
@@ -156,6 +160,7 @@
 	</icon>
 	<icon name="utilities-system-monitor">
 	    <link>gnome-monitor</link>
+	    <link>ksysgaurd</link>
 	</icon>
 	<icon name="utilities-terminal">
 	    <link>gnome-terminal</link>
@@ -278,6 +283,7 @@
 	    <link>gnome-mime-application-x-deb</link>
 	    <link>gnome-mime-application-x-gzip</link>
 	    <link>gnome-mime-application-x-rpm</link>
+	    <link>package</link>
 	    <link>deb</link>
 	    <link>rpm</link>
 	    <link>tar</link>
