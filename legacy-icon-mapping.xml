@@ -114,7 +114,6 @@
 	    <link>gnome-help</link>
 	</icon>
 	<icon name="internet-mail">
-	    <link>kmail</link>
 	    <link>email</link>
 	</icon>
 	<icon name="internet-web-browser">
@@ -165,7 +164,7 @@
 	</icon>
 	<icon name="utilities-system-monitor">
 	    <link>gnome-monitor</link>
-	    <link>ksysgaurd</link>
+	    <link>ksysguard</link>
 	</icon>
 	<icon name="utilities-terminal">
 	    <link>gnome-terminal</link>

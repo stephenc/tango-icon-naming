@@ -1,5 +1,10 @@
 2005-10-18  Rodney Dawes  <dobey@novell.com>
 
+	* legacy-icon-mapping.xml: Remove kmail link and fix typo for the
+	ksysguard link. patch from Niko Mirthes
+
+2005-10-18  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Link stock_home to the new home icon
 	Add links for the stop icon
 
