@@ -1,3 +1,8 @@
+2005-10-18  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Link stock_home to the new home icon
+	Add links for the stop icon
+
 2005-10-15  Rodney Dawes  <dobey@novell.com>
 
 	* configure.ac: Up version to 0.3.1 for release

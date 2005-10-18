@@ -45,6 +45,7 @@
 	</icon>
 	<icon name="go-home">
 	    <link>gtk-home</link>
+	    <link>stock_home</link>
 	    <link>gohome</link>
 	    <link>kfm_home</link>
 	</icon>
@@ -73,6 +74,10 @@
 	<icon name="go-up">
 	    <link>gtk-go-up</link>
 	    <link>up</link>
+	</icon>
+	<icon name="process-stop">
+	    <link>gtk-stop</link>
+	    <link>stop</link>
 	</icon>
 	<icon name="view-refresh">
 	    <link>gtk-refresh</link>
