@@ -1,5 +1,11 @@
 2005-10-18  Rodney Dawes  <dobey@novell.com>
 
+	* legacy-icon-mapping.xml: Add link for the bookmark-new icon
+	Add a link for gtk-help to the help-browser icon
+	Add a link for gnome-joystick to the applications-games icon
+
+2005-10-18  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Remove kmail link and fix typo for the
 	ksysguard link. patch from Niko Mirthes
 

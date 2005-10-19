@@ -14,6 +14,9 @@
 	    <link>stock_new-appointment</link>
 	    <link>appointment</link>
 	</icon>
+	<icon name="bookmark-new">
+	    <link>stock_add-bookmark</link>
+	</icon>
 	<icon name="dialog-cancel">
 	    <link>gtk-cancel</link>
 	    <link>button_cancel</link>
@@ -112,6 +115,7 @@
 	    <link>khelpcenter</link>
 	    <link>susehelpcenter</link>
 	    <link>gnome-help</link>
+	    <link>gtk-help</link>
 	</icon>
 	<icon name="internet-mail">
 	    <link>email</link>
@@ -172,6 +176,9 @@
 	</icon>
     </context>
     <context dir="categories">
+	<icon name="applications-games">
+	    <link>gnome-joystick</link>
+	</icon>
 	<icon name="preferences-desktop">
 	    <link>gnome-settings</link>
 	    <link>gtk-preferences</link>
