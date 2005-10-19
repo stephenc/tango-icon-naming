@@ -1,5 +1,9 @@
 2005-10-18  Rodney Dawes  <dobey@novell.com>
 
+	* configure.ac: Up version to 0.3.2 for release
+
+2005-10-18  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Add link for the bookmark-new icon
 	Add a link for gtk-help to the help-browser icon
 	Add a link for gnome-joystick to the applications-games icon
