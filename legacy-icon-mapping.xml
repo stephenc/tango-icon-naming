@@ -369,10 +369,13 @@
 	<icon name="x-directory-trash">
 	    <link>gnome-fs-trash-empty</link>
 	    <link>trashcan_empty</link>
+	    <link>gnome-stock-trash</link>
+	    <link>gtk-delete</link>
 	</icon>
 	<icon name="x-directory-trash-full">
 	    <link>gnome-fs-trash-full</link>
 	    <link>trashcan_full</link>
+	    <link>gnome-stock-trash-full</link>
 	</icon>
 	<icon name="x-office-spreadsheet">
 	    <link>gnome-mime-application-x-gnumeric</link>

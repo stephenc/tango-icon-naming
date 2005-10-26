@@ -1,3 +1,7 @@
+2005-10-26  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Add links to gtk+/gnome stock trash icons
+
 2005-10-18  Rodney Dawes  <dobey@novell.com>
 
 	* configure.ac: Up version to 0.3.2 for release
