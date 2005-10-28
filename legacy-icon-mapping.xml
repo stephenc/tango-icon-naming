@@ -22,6 +22,14 @@
 	    <link>button_cancel</link>
 	    <link>cancel</link>
 	</icon>
+	<icon name="edit-copy">
+	    <link>gtk-copy</link>
+	    <link>editcopy</link>
+	</icon>
+	<icon name="edit-cut">
+	    <link>gtk-cut</link>
+	    <link>editcut</link>
+	</icon>
 	<icon name="edit-paste">
 	    <link>gtk-paste</link>
 	    <link>editpaste</link>
