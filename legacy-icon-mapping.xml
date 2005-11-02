@@ -16,6 +16,7 @@
 	</icon>
 	<icon name="bookmark-new">
 	    <link>stock_add-bookmark</link>
+	    <link>bookmark_add</link>
 	</icon>
 	<icon name="dialog-cancel">
 	    <link>gtk-cancel</link>
@@ -34,6 +35,12 @@
 	    <link>gtk-paste</link>
 	    <link>editpaste</link>
 	</icon>
+	<icon name="edit-redo">
+	    <link>redo</link>
+	</icon>
+	<icon mame="edit-undo">
+	    <link>undo</link>
+	</icon>
 	<icon name="document-new">
 	    <link>gtk-new</link>
 	    <link>filenew</link>
@@ -49,10 +56,12 @@
 	<icon name="go-down">
 	    <link>gtk-go-down</link>
 	    <link>down</link>
+	    <link>1downarrow</link>
 	</icon>
 	<icon name="go-first">
 	    <link>gtk-goto-first-ltr</link>
 	    <link>gtk-goto-last-rtl</link>
+	    <link>start</link>
 	</icon>
 	<icon name="go-home">
 	    <link>gtk-home</link>
@@ -67,16 +76,21 @@
 	<icon name="go-last">
 	    <link>gtk-goto-last-ltr</link>
 	    <link>gtk-goto-first-rtl</link>
+	    <link>finish</link>
 	</icon>
 	<icon name="go-next">
 	    <link>gtk-go-forward-ltr</link>
 	    <link>gtk-go-back-rtl</link>
 	    <link>forward</link>
+	    <link>1rightarrow</link>
+	    <link>next</link>
 	</icon>
 	<icon name="go-previous">
 	    <link>gtk-go-back-ltr</link>
 	    <link>gtk-go-forward-rtl</link>
 	    <link>back</link>
+	    <link>1leftarrow</link>
+	    <link>previous</link>
 	</icon>
 	<icon name="go-top">
 	    <link>gtk-goto-top</link>
@@ -85,6 +99,7 @@
 	<icon name="go-up">
 	    <link>gtk-go-up</link>
 	    <link>up</link>
+	    <link>1uparrow</link>
 	</icon>
 	<icon name="process-stop">
 	    <link>gtk-stop</link>
@@ -93,6 +108,8 @@
 	<icon name="view-refresh">
 	    <link>gtk-refresh</link>
 	    <link>reload</link>
+	    <link>reload_all_tabs</link>
+	    <link>reload_page</link>
 	</icon>
 	<icon name="view-sort-ascending">
 	    <link>gtk-sort-ascending</link>
@@ -107,6 +124,7 @@
 	<icon name="system-search">
 	    <link>gnome-searchtool</link>
 	    <link>search</link>
+	    <link>kfind</link>
 	</icon>
     </context>
     <context dir="apps">
@@ -173,6 +191,7 @@
 	</icon>
 	<icon name="system-users">
 	    <link>kuser</link>
+	    <link>config-users</link>
 	</icon>
 	<icon name="utilities-system-monitor">
 	    <link>gnome-monitor</link>
@@ -181,6 +200,10 @@
 	<icon name="utilities-terminal">
 	    <link>gnome-terminal</link>
 	    <link>konsole</link>
+	    <link>openterm</link>
+	    <link>opentermblue</link>
+	    <link>opentermred</link>
+	    <link>terminal</link>
 	</icon>
     </context>
     <context dir="categories">
@@ -196,7 +219,7 @@
 	<icon name="audio-card">
 	    <link>yast_soundcard</link>
 	</icon>
-	<icon name="camera-video">
+	<icon name="camera-photo">
 	    <link>camera</link>
 	    <link>camera_unmount</link>
 	</icon>
@@ -235,7 +258,7 @@
 	    <link>gnome-dev-media-ms</link>
 	    <link>gnome-dev-media-sdmmc</link>
 	    <link>gnome-dev-media-sm</link>
-	    <link>usbpendrive_umount</link>
+	    <link>usbpendrive_unmount</link>
 	</icon>
 	<icon name="input-gaming">
 	    <link>joystick</link>
@@ -320,6 +343,7 @@
 	    <link>ascii</link>
 	    <link>mime_ascii</link>
 	    <link>txt</link>
+	    <link>txt2</link>
 	    <link>gnome-fs-regular</link>
 	</icon>
 	<icon name="video-x-generic">
@@ -406,7 +430,6 @@
 	</icon>
 	<icon name="dialog-question">
 	    <link>gtk-dialog-question</link>
-            <link>help</link>
 	</icon>
 	<icon name="dialog-warning">
 	    <link>gtk-dialog-warning</link>
