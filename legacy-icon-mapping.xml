@@ -23,6 +23,18 @@
 	    <link>button_cancel</link>
 	    <link>cancel</link>
 	</icon>
+	<icon name="document-new">
+	    <link>gtk-new</link>
+	    <link>filenew</link>
+	</icon>
+	<icon name="document-print">
+	    <link>gtk-print</link>
+	    <link>fileprint</link>
+	</icon>
+	<icon name="document-save">
+	    <link>gtk-save</link>
+	    <link>stock_save</link>
+	</icon>
 	<icon name="edit-copy">
 	    <link>gtk-copy</link>
 	    <link>editcopy</link>
@@ -37,17 +49,13 @@
 	</icon>
 	<icon name="edit-redo">
 	    <link>redo</link>
+	    <link>gtk-redo</link>
+	    <link>stock_redo</link>
 	</icon>
 	<icon name="edit-undo">
 	    <link>undo</link>
-	</icon>
-	<icon name="document-new">
-	    <link>gtk-new</link>
-	    <link>filenew</link>
-	</icon>
-	<icon name="document-print">
-	    <link>gtk-print</link>
-	    <link>fileprint</link>
+	    <link>gtk-undo</link>
+	    <link>stock_undo</link>
 	</icon>
 	<icon name="go-bottom">
 	    <link>gtk-goto-bottom</link>
