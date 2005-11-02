@@ -1,5 +1,9 @@
 2005-11-01  Rodney Dawes  <dobey@novell.com>
 
+	* legacy-icon-mapping.xml: Fix typo for edit-undo
+
+2005-11-01  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Update for more KDE icons, and add the
 	links for edit-redo and edit-undo
 	Patch from Niko Mirthes

@@ -38,7 +38,7 @@
 	<icon name="edit-redo">
 	    <link>redo</link>
 	</icon>
-	<icon mame="edit-undo">
+	<icon name="edit-undo">
 	    <link>undo</link>
 	</icon>
 	<icon name="document-new">
