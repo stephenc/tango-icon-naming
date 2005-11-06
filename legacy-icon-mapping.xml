@@ -332,7 +332,10 @@
 	    <link>gnome-mime-application-x-cpio</link>
 	    <link>gnome-mime-application-x-deb</link>
 	    <link>gnome-mime-application-x-gzip</link>
+	    <link>gnome-mime-application-x-rar</link>
 	    <link>gnome-mime-application-x-rpm</link>
+	    <link>gnome-mime-application-x-tar</link>
+	    <link>gnome-mime-application-x-tarz</link>
 	    <link>package</link>
 	    <link>deb</link>
 	    <link>rpm</link>
