@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.52)
 
-AC_INIT(icon-naming-utils, 0.3.2)
+AC_INIT(icon-naming-utils, 0.4.0)
 AC_CONFIG_SRCDIR(icon-name-mapping.pl.in)
 AC_COPYRIGHT([Copyright 2005 Novell, Inc.])
 

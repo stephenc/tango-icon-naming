@@ -1,5 +1,9 @@
 2005-11-06  Rodney Dawes  <dobey@novell.com>
 
+	* configure.ac: Up version to 0.4.0 for release
+
+2005-11-06  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Add a lot of links for stock icons that
 	were missing before, and fix the undo/redo issues
 	Updated links for KDE icons from Niko Mirthes
