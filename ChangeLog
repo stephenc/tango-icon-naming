@@ -1,5 +1,12 @@
 2005-11-06  Rodney Dawes  <dobey@novell.com>
 
+	* legacy-icon-mapping.xml: Add a lot of links for stock icons that
+	were missing before, and fix the undo/redo issues
+	Updated links for KDE icons from Niko Mirthes
+	Add links for dobument-open and properties from Steven Garrity
+
+2005-11-06  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Add tar, rar, and tarz for package icon
 	Patch from Jakub Steiner
 

@@ -16,7 +16,9 @@
 	</icon>
 	<icon name="bookmark-new">
 	    <link>stock_add-bookmark</link>
+	    <link>stock_help-add-bookmark</link>
 	    <link>bookmark_add</link>
+	    <link>bookmarks_list_add</link>
 	</icon>
 	<icon name="dialog-cancel">
 	    <link>gtk-cancel</link>
@@ -25,50 +27,88 @@
 	</icon>
 	<icon name="document-new">
 	    <link>gtk-new</link>
+	    <link>stock_new-text</link>
 	    <link>filenew</link>
+	</icon>
+	<icon name="document-open">
+	    <link>gtk-open</link>
+	    <link>fileopen</link>
 	</icon>
 	<icon name="document-print">
 	    <link>gtk-print</link>
+	    <link>stock_print</link>
 	    <link>fileprint</link>
+	</icon>
+	<icon name="document-properties">
+	    <link>gtk-properties</link>
+	    <link>stock_properties</link>
+	    <link>stock_file-properites</link>
 	</icon>
 	<icon name="document-save">
 	    <link>gtk-save</link>
 	    <link>stock_save</link>
+	    <link>filesave</link>
 	</icon>
 	<icon name="edit-copy">
 	    <link>gtk-copy</link>
+	    <link>stock_copy</link>
 	    <link>editcopy</link>
 	</icon>
 	<icon name="edit-cut">
 	    <link>gtk-cut</link>
+	    <link>stock_cut</link>
 	    <link>editcut</link>
 	</icon>
 	<icon name="edit-paste">
 	    <link>gtk-paste</link>
+	    <link>stock_paste</link>
 	    <link>editpaste</link>
 	</icon>
 	<icon name="edit-redo">
 	    <link>redo</link>
-	    <link>gtk-redo</link>
+	    <link>gtk-redo-ltr</link>
 	    <link>stock_redo</link>
 	</icon>
 	<icon name="edit-undo">
 	    <link>undo</link>
-	    <link>gtk-undo</link>
+	    <link>gtk-undo-ltr</link>
 	    <link>stock_undo</link>
+	</icon>
+	<icon name="format-indent-less">
+	    <link>stock_unindent</link>
+	</icon>
+	<icon name="format-indent-more">
+	    <link>stock_indent</link>
+	</icon>
+	<icon name="format-justify-center">
+	    <link>stock_text_center</link>
+	    <link>centrejust</link>
+	</icon>
+	<icon name="format-justify-fill">
+	    <link>stock_text_justify</link>
+	</icon>
+	<icon name="format-justify-left">
+	    <link>stock_text_right</link>
+	    <link>leftjust</link>
+	</icon>
+	<icon name="format-justify-right">
+	    <link>stock_text_right</link>
+	    <link>rightjust</link>
 	</icon>
 	<icon name="go-bottom">
 	    <link>gtk-goto-bottom</link>
+	    <link>stock_bottom</link>
 	    <link>bottom</link>
 	</icon>
 	<icon name="go-down">
 	    <link>gtk-go-down</link>
+	    <link>stock_down</link>
 	    <link>down</link>
-	    <link>1downarrow</link>
 	</icon>
 	<icon name="go-first">
 	    <link>gtk-goto-first-ltr</link>
 	    <link>gtk-goto-last-rtl</link>
+	    <link>stock_first</link>
 	    <link>start</link>
 	</icon>
 	<icon name="go-home">
@@ -84,40 +124,49 @@
 	<icon name="go-last">
 	    <link>gtk-goto-last-ltr</link>
 	    <link>gtk-goto-first-rtl</link>
+	    <link>stock_last</link>
 	    <link>finish</link>
 	</icon>
 	<icon name="go-next">
 	    <link>gtk-go-forward-ltr</link>
 	    <link>gtk-go-back-rtl</link>
+	    <link>stock_right</link>
 	    <link>forward</link>
-	    <link>1rightarrow</link>
 	    <link>next</link>
 	</icon>
 	<icon name="go-previous">
 	    <link>gtk-go-back-ltr</link>
 	    <link>gtk-go-forward-rtl</link>
+	    <link>stock_left</link>
 	    <link>back</link>
-	    <link>1leftarrow</link>
 	    <link>previous</link>
 	</icon>
 	<icon name="go-top">
 	    <link>gtk-goto-top</link>
+	    <link>stock_top</link>
 	    <link>top</link>
 	</icon>
 	<icon name="go-up">
 	    <link>gtk-go-up</link>
+	    <link>stock_up</link>
 	    <link>up</link>
-	    <link>1uparrow</link>
+	</icon>
+	<icon name="tab-new">
+	    <link>stock_new-tab</link>
+	    <link>tab_new</link>
 	</icon>
 	<icon name="process-stop">
 	    <link>gtk-stop</link>
+	    <link>stock_stop</link>
 	    <link>stop</link>
 	</icon>
 	<icon name="view-refresh">
 	    <link>gtk-refresh</link>
+	    <link>stock_refresh</link>
 	    <link>reload</link>
 	    <link>reload_all_tabs</link>
 	    <link>reload_page</link>
+	    <link>reload3</link>
 	</icon>
 	<icon name="view-sort-ascending">
 	    <link>gtk-sort-ascending</link>
@@ -150,14 +199,25 @@
 	    <link>susehelpcenter</link>
 	    <link>gnome-help</link>
 	    <link>gtk-help</link>
+	    <link>stock_help</link>
 	</icon>
 	<icon name="internet-mail">
 	    <link>email</link>
 	</icon>
 	<icon name="internet-web-browser">
+	    <link>stock_internet</link>
 	    <link>browser</link>
 	    <link>gnome-globe</link>
 	    <link>web-browser</link>
+	</icon>
+	<icon name="multimedia-volume-control">
+	    <link>gnome-mixer</link>
+	    <link>arts</link>
+	    <link>kcmsound</link>
+	    <link>multimedia</link>
+	</icon>
+	<icon name="office-calendar">
+	    <link>date</link>
 	</icon>
 	<icon name="preferences-desktop-accessibility">
 	    <link>accessibility-directory</link>
@@ -209,8 +269,6 @@
 	    <link>gnome-terminal</link>
 	    <link>konsole</link>
 	    <link>openterm</link>
-	    <link>opentermblue</link>
-	    <link>opentermred</link>
 	    <link>terminal</link>
 	</icon>
     </context>
@@ -299,8 +357,11 @@
 	    <link>printer-remote</link>
 	    <link>yast_printer</link>
 	    <link>printer1</link>
+	    <link>printmgr</link>
+	    <link>kjobviewer</link>
 	</icon>
 	<icon name="video-display">
+	    <link>chardevice</link>
 	    <link>display</link>
 	</icon>
     </context>
@@ -309,6 +370,7 @@
 	    <link>gnome-fs-executable</link>
 	    <link>gnome-mime-application-x-executable</link>
 	    <link>gnome-mime-application-x-ms-dos-executable</link>
+	    <link>binary</link>
 	    <link>exec</link>
 	</icon>
 	<icon name="audio-x-generic">
@@ -352,10 +414,25 @@
 	<icon name="text-x-generic">
 	    <link>gnome-mime-text</link>
 	    <link>ascii</link>
+	    <link>empty</link>
 	    <link>mime_ascii</link>
+	    <link>misc</link>
 	    <link>txt</link>
 	    <link>txt2</link>
+	    <link>unknown</link>
 	    <link>gnome-fs-regular</link>
+	</icon>
+	<icon name="text-x-generic-template">
+	    <link>template_source</link>
+	</icon>
+	<icon name="text-x-script">
+	    <link>gnome-mime-application-x-perl</link>
+	    <link>gnome-mime-application-x-python-bytecode</link>
+	    <link>gnome-mime-application-x-shellscript</link>
+	    <link>gnome-mime-text-x-csh</link>
+	    <link>gnome-mime-text-x-python</link>
+	    <link>gnome-mime-text-x-zsh</link>
+	    <link>shellscript</link>
 	</icon>
 	<icon name="video-x-generic">
 	    <link>gnome-mime-video</link>
@@ -367,6 +444,7 @@
 	</icon>
 	<icon name="x-directory-normal">
 	    <link>gnome-fs-directory</link>
+	    <link>stock_folder</link>
 	    <link>folder</link>
 	</icon>
 	<icon name="x-directory-normal-drag-accept">
@@ -393,7 +471,7 @@
 	</icon>
 	<icon name="x-directory-remote-nfs">
 	    <link>gnome-fs-nfs</link>
-            <link>nfs_unmount</link>
+	    <link>nfs_unmount</link>
 	</icon>
 	<icon name="x-directory-remote-smb">
 	    <link>gnome-fs-smb</link>
@@ -414,11 +492,16 @@
 	    <link>trashcan_empty</link>
 	    <link>gnome-stock-trash</link>
 	    <link>gtk-delete</link>
+	    <link>stock_delete</link>
 	</icon>
 	<icon name="x-directory-trash-full">
 	    <link>gnome-fs-trash-full</link>
 	    <link>trashcan_full</link>
 	    <link>gnome-stock-trash-full</link>
+	    <link>stock_trash_full</link>
+	</icon>
+	<icon name="x-office-address-book">
+	    <link>stock_addressbook</link>
 	</icon>
 	<icon name="x-office-spreadsheet">
 	    <link>gnome-mime-application-x-gnumeric</link>
@@ -428,11 +511,13 @@
     <context dir="status">
 	<icon name="dialog-error">
 	    <link>gtk-dialog-error</link>
+	    <link>stock_dialog-error</link>
 	    <link>error</link>
 	    <link>messagebox_critical</link>
 	</icon>
 	<icon name="dialog-information">
 	    <link>gtk-dialog-info</link>
+	    <link>stock_dialog-info</link>
 	    <link>info</link>
 	    <link>messagebox_info</link>
 	</icon>
@@ -444,6 +529,7 @@
 	</icon>
 	<icon name="dialog-warning">
 	    <link>gtk-dialog-warning</link>
+	    <link>stock_dialog-warning</link>
 	    <link>messagebox_warning</link>
 	    <link>important</link>
 	</icon>
