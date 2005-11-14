@@ -39,6 +39,10 @@
 	    <link>stock_print</link>
 	    <link>fileprint</link>
 	</icon>
+	<icon name="document-print-preview">
+	    <link>gtk-print-preview</link>
+	    <link>stock_print-preview</link>
+	</icon>
 	<icon name="document-properties">
 	    <link>gtk-properties</link>
 	    <link>stock_properties</link>
@@ -48,6 +52,15 @@
 	    <link>gtk-save</link>
 	    <link>stock_save</link>
 	    <link>filesave</link>
+	</icon>
+	<icon name="document-save-as">
+	    <link>gtk-save-as</link>
+	    <link>stock_save-as</link>
+	    <link>filesaveas</link>
+	</icon>
+	<icon name="edit-clear">
+	    <link>gtk-clear</link>
+	    <link>editclear</link>
 	</icon>
 	<icon name="edit-copy">
 	    <link>gtk-copy</link>
@@ -75,25 +88,49 @@
 	    <link>stock_undo</link>
 	</icon>
 	<icon name="format-indent-less">
-	    <link>stock_unindent</link>
+	    <link>gtk-unindent</link>
+	    <link>stock_text_unindent</link>
+	    <link>gnome-stock-text-unindent</link>
 	</icon>
 	<icon name="format-indent-more">
-	    <link>stock_indent</link>
+	    <link>gtk-indent</link>
+	    <link>stock_text_indent</link>
+	    <link>gnome-stock-text-indent</link>
 	</icon>
 	<icon name="format-justify-center">
+	    <link>gtk-justify-center</link>
 	    <link>stock_text_center</link>
 	    <link>centrejust</link>
 	</icon>
 	<icon name="format-justify-fill">
+	    <link>gtk-justify-fill</link>
 	    <link>stock_text_justify</link>
 	</icon>
 	<icon name="format-justify-left">
-	    <link>stock_text_right</link>
+	    <link>gtk-justify-left</link>
+	    <link>stock_text_left</link>
 	    <link>leftjust</link>
 	</icon>
 	<icon name="format-justify-right">
+	    <link>gtk-justify-right</link>
 	    <link>stock_text_right</link>
 	    <link>rightjust</link>
+	</icon>
+	<icon name="format-text-bold">
+	    <link>gtk-bold</link>
+	    <link>stock_text_bold</link>
+	</icon>
+	<icon name="format-text-italic">
+	    <link>gtk-italic</link>
+	    <link>stock_text_italic</link>
+	</icon>
+	<icon name="format-text-strikethrough">
+	    <link>gtk-strikethrough</link>
+	    <link>stock_text-strikethrough</link>
+	</icon>
+	<icon name="format-text-underline">
+	    <link>gtk-underline</link>
+	    <link>stock_text_underlined</link>
 	</icon>
 	<icon name="go-bottom">
 	    <link>gtk-goto-bottom</link>
@@ -182,6 +219,10 @@
 	    <link>gnome-searchtool</link>
 	    <link>search</link>
 	    <link>kfind</link>
+	</icon>
+	<icon name="window-new">
+	    <link>stock_new-window</link>
+	    <link>window_new</link>
 	</icon>
     </context>
     <context dir="apps">
@@ -275,15 +316,22 @@
     <context dir="categories">
 	<icon name="applications-games">
 	    <link>gnome-joystick</link>
+	    <link>redhat-games</link>
+	    <link>package_games</link>
 	</icon>
 	<icon name="preferences-desktop">
 	    <link>gnome-settings</link>
 	    <link>gtk-preferences</link>
+	    <link>redhat-preferences</link>
 	</icon>
     </context>
     <context dir="devices">
 	<icon name="audio-card">
 	    <link>yast_soundcard</link>
+	</icon>
+	<icon name="audio-input-microphone">
+	    <link>stock_mic</link>
+	    <link>gnome-stock-mic</link>
 	</icon>
 	<icon name="camera-photo">
 	    <link>camera</link>
@@ -307,6 +355,7 @@
 	    <link>gnome-dev-disc-dvdrw</link>
 	</icon>
 	<icon name="drive-harddisk">
+	    <link>gtk-harddisk</link>
 	    <link>gnome-dev-harddisk</link>
 	    <link>gnome-dev-harddisk-usb</link>
 	    <link>gnome-dev-harddisk-1394</link>
@@ -342,6 +391,7 @@
 	    <link>yast_mouse</link>
 	</icon>
 	<icon name="media-cdrom">
+	    <link>gtk-cdrom</link>
 	    <link>gnome-dev-cdrom-audio</link>
 	    <link>cdrom_unmount</link>
 	    <link>cdwriter_unmount</link>
@@ -351,6 +401,9 @@
 	    <link>gnome-dev-disc-dvdram</link>
 	    <link>gnome-dev-disc-dvdrom</link>
 	    <link>gnome-dev-disc-dvdrw</link>
+	</icon>
+	<icon name="media-floppy">
+	    <link>3floppy_unmount</link>
 	</icon>
 	<icon name="printer">
 	    <link>gnome-dev-printer</link>
@@ -363,6 +416,11 @@
 	<icon name="video-display">
 	    <link>chardevice</link>
 	    <link>display</link>
+	</icon>
+    </context>
+    <context dir="emblems">
+	<icon name="emblem-important">
+	    <link>stock_mail-priority-high</link>
 	</icon>
     </context>
     <context dir="mimetypes">
@@ -392,12 +450,14 @@
 	    <link>gnome-mime-application-x-compress</link>
 	    <link>gnome-mime-application-x-compressed-tar</link>
 	    <link>gnome-mime-application-x-cpio</link>
+	    <link>gnome-mime-application-x-cpio-compressed</link>
 	    <link>gnome-mime-application-x-deb</link>
 	    <link>gnome-mime-application-x-gzip</link>
 	    <link>gnome-mime-application-x-rar</link>
 	    <link>gnome-mime-application-x-rpm</link>
 	    <link>gnome-mime-application-x-tar</link>
 	    <link>gnome-mime-application-x-tarz</link>
+	    <link>gnome-mime-application-x-7z-compressed</link>
 	    <link>package</link>
 	    <link>deb</link>
 	    <link>rpm</link>
@@ -489,6 +549,7 @@
 	</icon>
 	<icon name="x-directory-trash">
 	    <link>gnome-fs-trash-empty</link>
+	    <link>emptytrash</link>
 	    <link>trashcan_empty</link>
 	    <link>gnome-stock-trash</link>
 	    <link>gtk-delete</link>
@@ -496,6 +557,7 @@
 	</icon>
 	<icon name="x-directory-trash-full">
 	    <link>gnome-fs-trash-full</link>
+	    <link>edittrash</link>
 	    <link>trashcan_full</link>
 	    <link>gnome-stock-trash-full</link>
 	    <link>stock_trash_full</link>

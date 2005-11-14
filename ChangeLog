@@ -1,3 +1,11 @@
+2005-11-14  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml:
+	Fix icon name typos and add updates for some stock icons (Rodney Dawes)
+	Add links to some redhat category icons (Steven Garrity)
+	Add links for more text formatting icons (David Schroeder)
+	Add some updates for KDE icons (Niko Mirthes)
+	
 2005-11-06  Rodney Dawes  <dobey@novell.com>
 
 	* configure.ac: Up version to 0.4.0 for release
