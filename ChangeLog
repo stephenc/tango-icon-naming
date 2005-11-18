@@ -1,5 +1,9 @@
 2005-11-18  Rodney Dawes  <dobey@novell.com>
 
+	* configure.ac: Up version to 0.5.0 for release
+
+2005-11-18  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Few minor KDE updates (Niko Mirthes)
 	Fix the alphabetical ordering of some icon names (Niko Mirthes)
 	Add links for gtk+/gnome find icons (Rodney Dawes)
