@@ -72,6 +72,12 @@
 	    <link>stock_cut</link>
 	    <link>editcut</link>
 	</icon>
+	<icon name="edit-find">
+	    <link>gtk-find</link>
+	    <link>stock_search</link>
+	    <link>filefind</link>
+	    <link>find</link>
+	</icon>
 	<icon name="edit-paste">
 	    <link>gtk-paste</link>
 	    <link>stock_paste</link>
@@ -188,14 +194,28 @@
 	    <link>stock_up</link>
 	    <link>up</link>
 	</icon>
-	<icon name="tab-new">
-	    <link>stock_new-tab</link>
-	    <link>tab_new</link>
+	<icon name="mail-message-new">
+	    <link>stock_mail-compose</link>
+	    <link>gnome-stock-mail-new</link>
+	    <link>mail_new</link>
 	</icon>
 	<icon name="process-stop">
 	    <link>gtk-stop</link>
 	    <link>stock_stop</link>
 	    <link>stop</link>
+	</icon>
+	<icon name="system-log-out">
+	    <link>gnome-logout</link>
+	    <link>exit</link>
+	</icon>
+	<icon name="system-search">
+	    <link>gnome-searchtool</link>
+	    <link>search</link>
+	    <link>kfind</link>
+	</icon>
+	<icon name="tab-new">
+	    <link>stock_new-tab</link>
+	    <link>tab_new</link>
 	</icon>
 	<icon name="view-refresh">
 	    <link>gtk-refresh</link>
@@ -210,15 +230,6 @@
 	</icon>
 	<icon name="view-sort-descending">
 	    <link>gtk-sort-descending</link>
-	</icon>
-	<icon name="system-log-out">
-	    <link>gnome-logout</link>
-	    <link>exit</link>
-	</icon>
-	<icon name="system-search">
-	    <link>gnome-searchtool</link>
-	    <link>search</link>
-	    <link>kfind</link>
 	</icon>
 	<icon name="window-new">
 	    <link>stock_new-window</link>
@@ -314,10 +325,28 @@
 	</icon>
     </context>
     <context dir="categories">
+	<icon name="applications-accessories">
+	    <link>gnome-util</link>
+	</icon>
+	<icon name="applications-development">
+	    <link>gnome-devel</link>
+	</icon>
 	<icon name="applications-games">
 	    <link>gnome-joystick</link>
 	    <link>redhat-games</link>
 	    <link>package_games</link>
+	</icon>
+	<icon name="applications-graphics">
+	    <link>gnome-graphics</link>
+	</icon>
+	<icon name="applications-multimedia">
+	    <link>gnome-multimedia</link>
+	</icon>
+	<icon name="applications-office">
+	    <link>gnome-applications</link>
+	</icon>
+	<icon name="applications-system">
+	    <link>gnome-system</link>
 	</icon>
 	<icon name="preferences-desktop">
 	    <link>gnome-settings</link>
@@ -332,6 +361,9 @@
 	<icon name="audio-input-microphone">
 	    <link>stock_mic</link>
 	    <link>gnome-stock-mic</link>
+	</icon>
+	<icon name="battery">
+	    <link>gnome-dev-battery</link>
 	</icon>
 	<icon name="camera-photo">
 	    <link>camera</link>
@@ -408,6 +440,7 @@
 	<icon name="printer">
 	    <link>gnome-dev-printer</link>
 	    <link>printer-remote</link>
+	    <link>stock_printers</link>
 	    <link>yast_printer</link>
 	    <link>printer1</link>
 	    <link>printmgr</link>
@@ -495,6 +528,7 @@
 	    <link>shellscript</link>
 	</icon>
 	<icon name="video-x-generic">
+	    <link>gnome-mime-application-x-shockwave-flash</link>
 	    <link>gnome-mime-video</link>
 	    <link>video</link>
 	</icon>
@@ -565,8 +599,31 @@
 	<icon name="x-office-address-book">
 	    <link>stock_addressbook</link>
 	</icon>
+	<icon name="x-office-document">
+	    <link>gnome-mime-application-msword</link>
+	    <link>gnome-mime-application-pdf</link>
+	    <link>gnome-mime-application-postscript</link>
+	    <link>gnome-mime-application-rtf</link>
+	    <link>gnome-mime-application-vnd.oasis.opendocument.text</link>
+	    <link>gnome-mime-applciation-vnd.stardivision.writer</link>
+	    <link>gnome-mime-application-vnd.sun.xml.writer</link>
+	    <link>gnome-mime-application-wordperfect</link>
+	    <link>gnome-mime-application-x-abiword</link>
+	    <link>gnome-mime-application-x-applix-word</link>
+	    <link>gnome-mime-application-x-dvi</link>
+	    <link>gnome-mime-application-x-kword</link>
+	    <link>gnome-mime-application-x-tex</link>
+	    <link>document</link>
+	</icon>
 	<icon name="x-office-spreadsheet">
+	    <link>gnome-mime-application-vnd.lotus-1-2-3</link>
+	    <link>gnome-mime-application-vnd.ms-excel</link>
+	    <link>gnome-mime-application-vnd.oasis.opendocument.spreadsheet</link>
+	    <link>gnome-mime-application-vnd.stardivision.calc</link>
+	    <link>gnome-mime-application-vnd.sun.xml.calc</link>
+	    <link>gnome-mime-application-x-applix-spreadsheet</link>
 	    <link>gnome-mime-application-x-gnumeric</link>
+	    <link>gnome-mime-application-x-kspread</link>
 	    <link>spreadsheet</link>
 	</icon>
     </context>

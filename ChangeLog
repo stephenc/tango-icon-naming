@@ -1,3 +1,16 @@
+2005-11-18  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Few minor KDE updates (Niko Mirthes)
+	Fix the alphabetical ordering of some icon names (Niko Mirthes)
+	Add links for gtk+/gnome find icons (Rodney Dawes)
+	Add links for gtk+/gnome mail message compose icons (Rodney Dawes)
+	Add links for more category icons for gnome menus (Rodney Dawes)
+	Add a link for gnome-dev-battery the battery device (Rodney Dawes)
+	Add a link for stock_printers to the printer device (Rodney Dawes)
+	Add a link for the shockwave flash mime type to video (Rodney Dawes)
+	Add links for x-office-document, and fill out the links for the
+	spreadsheet mime type icon (Rodney Dawes)
+	
 2005-11-14  Rodney Dawes  <dobey@novell.com>
 
 	* legacy-icon-mapping.xml:
