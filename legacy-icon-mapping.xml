@@ -199,6 +199,50 @@
 	    <link>gnome-stock-mail-new</link>
 	    <link>mail_new</link>
 	</icon>
+	<icon name="media-playback-pause">
+	    <link>gtk-media-pause</link>
+	    <link>stock_media-pause</link>
+	    <link>player_pause</link>
+	</icon>
+	<icon name="media-playback-start">
+	    <link>gtk-media-play-ltr</link>
+	    <link>stock_media-play</link>
+	    <link>player_play</link>
+	</icon>
+	<icon name="media-playback-stop">
+	    <link>gtk-media-stop</link>
+	    <link>stock_media-stop</link>
+	    <link>player_stop</link>
+	</icon>
+	<icon name="media-record">
+	    <link>gtk-media-record</link>
+	    <link>stock_media-rec</link>
+	    <link>player_record</link>
+	</icon>
+	<icon name="media-seek-backward">
+	    <link>gtk-media-rewind-ltr</link>
+	    <link>gtk-media-forward-rtl</link>
+	    <link>stock_media-rew</link>
+	    <link>player_rew</link>
+	</icon>
+	<icon name="media-seek-forward">
+	    <link>gtk-media-forward-ltr</link>
+	    <link>gtk-media-rewind-rtl</link>
+	    <link>stock_media-fwd</link>
+	    <link>player_fwd</link>
+	</icon>
+	<icon name="media-skip-backward">
+	    <link>gtk-media-previous-ltr</link>
+	    <link>gtk-media-next-rtl</link>
+	    <link>stock_media-prev</link>
+	    <link>player_start</link>
+	</icon>
+	<icon name="media-skip-forward">
+	    <link>gtk-media-next-ltr</link>
+	    <link>gtk-media-previous-rtl</link>
+	    <link>stock_media-next</link>
+	    <link>player_end</link>
+	</icon>
 	<icon name="process-stop">
 	    <link>gtk-stop</link>
 	    <link>stock_stop</link>
@@ -327,26 +371,36 @@
     <context dir="categories">
 	<icon name="applications-accessories">
 	    <link>gnome-util</link>
+	    <link>package_utilities</link>
+	    <link>redhat-accessories</link>
 	</icon>
 	<icon name="applications-development">
 	    <link>gnome-devel</link>
+	    <link>package_development</link>
+	    <link>redhat-programming</link>
 	</icon>
 	<icon name="applications-games">
 	    <link>gnome-joystick</link>
-	    <link>redhat-games</link>
 	    <link>package_games</link>
+	    <link>redhat-games</link>
 	</icon>
 	<icon name="applications-graphics">
 	    <link>gnome-graphics</link>
+	    <link>package_graphics</link>
+	    <link>redhat-graphics</link>
 	</icon>
 	<icon name="applications-multimedia">
 	    <link>gnome-multimedia</link>
+	    <link>package_multimedia</link>
+	    <link>redhat-sound_video</link>
 	</icon>
 	<icon name="applications-office">
 	    <link>gnome-applications</link>
+	    <link>redhat-office</link>
 	</icon>
 	<icon name="applications-system">
 	    <link>gnome-system</link>
+	    <link>package_system</link>
 	</icon>
 	<icon name="preferences-desktop">
 	    <link>gnome-settings</link>

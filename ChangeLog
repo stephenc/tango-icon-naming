@@ -1,3 +1,9 @@
+2005-11-23  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: KDE media player icons (Niko Mirthes)
+	Add links for KDE and redhat menu categories (Niko Mirthes)
+	Add links for gtk+/gnome media icons (Rodney Dawes)
+	
 2005-11-18  Rodney Dawes  <dobey@novell.com>
 
 	* configure.ac: Up version to 0.5.0 for release
