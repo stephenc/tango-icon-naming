@@ -20,6 +20,9 @@
 	    <link>bookmark_add</link>
 	    <link>bookmarks_list_add</link>
 	</icon>
+	<icon name="contact-new">
+	    <link>stock_new-bcard</link>
+	</icon>
 	<icon name="dialog-cancel">
 	    <link>gtk-cancel</link>
 	    <link>button_cancel</link>
@@ -42,6 +45,7 @@
 	<icon name="document-print-preview">
 	    <link>gtk-print-preview</link>
 	    <link>stock_print-preview</link>
+	    <link>filequickprint</link>
 	</icon>
 	<icon name="document-properties">
 	    <link>gtk-properties</link>
@@ -93,6 +97,10 @@
 	    <link>gtk-undo-ltr</link>
 	    <link>stock_undo</link>
 	</icon>
+	<icon name="folder-new">
+	    <link>stock_new-dir</link>
+	    <link>folder_new</link>
+	</icon>
 	<icon name="format-indent-less">
 	    <link>gtk-unindent</link>
 	    <link>stock_text_unindent</link>
@@ -125,18 +133,22 @@
 	<icon name="format-text-bold">
 	    <link>gtk-bold</link>
 	    <link>stock_text_bold</link>
+	    <link>text_bold</link>
 	</icon>
 	<icon name="format-text-italic">
 	    <link>gtk-italic</link>
 	    <link>stock_text_italic</link>
+	    <link>text_italic</link>
 	</icon>
 	<icon name="format-text-strikethrough">
 	    <link>gtk-strikethrough</link>
 	    <link>stock_text-strikethrough</link>
+	    <link>text_strike</link>
 	</icon>
 	<icon name="format-text-underline">
 	    <link>gtk-underline</link>
 	    <link>stock_text_underlined</link>
+	    <link>text_under</link>
 	</icon>
 	<icon name="go-bottom">
 	    <link>gtk-goto-bottom</link>
@@ -159,6 +171,7 @@
 	    <link>stock_home</link>
 	    <link>gohome</link>
 	    <link>kfm_home</link>
+	    <link>redhat-home</link>
 	</icon>
 	<icon name="go-jump">
 	    <link>gtk-jump-to-ltr</link>
@@ -248,6 +261,10 @@
 	    <link>stock_stop</link>
 	    <link>stop</link>
 	</icon>
+	<icon name="system-lock-screen">
+	    <link>gnome-lockscreen</link>
+	    <link>lock</link>
+	</icon>
 	<icon name="system-log-out">
 	    <link>gnome-logout</link>
 	    <link>exit</link>
@@ -286,6 +303,10 @@
 	    <link>kcalc</link>
 	    <link>calc</link>
 	</icon>
+	<icon name="accessories-character-map">
+	    <link>gucharmap</link>
+	    <link>kcharselect</link>
+	</icon>
 	<icon name="accessories-text-editor">
 	    <link>text-editor</link>
 	    <link>kedit</link>
@@ -296,15 +317,20 @@
 	    <link>gnome-help</link>
 	    <link>gtk-help</link>
 	    <link>stock_help</link>
+	    <link>help</link>
 	</icon>
 	<icon name="internet-mail">
 	    <link>email</link>
+	    <link>redhat-email</link>
 	</icon>
 	<icon name="internet-web-browser">
 	    <link>stock_internet</link>
 	    <link>browser</link>
 	    <link>gnome-globe</link>
 	    <link>web-browser</link>
+	    <link>package_network</link>
+	    <link>redhat-internet</link>
+	    <link>redhat-web-browser</link>
 	</icon>
 	<icon name="multimedia-volume-control">
 	    <link>gnome-mixer</link>
@@ -348,10 +374,7 @@
 	<icon name="system-file-manager">
 	    <link>file-manager</link>
 	    <link>kfm</link>
-	</icon>
-	<icon name="system-lock-screen">
-	    <link>gnome-lockscreen</link>
-	    <link>lock</link>
+	    <link>redhat-filemanager</link>
 	</icon>
 	<icon name="system-users">
 	    <link>kuser</link>
@@ -630,10 +653,10 @@
 	<icon name="x-directory-remote-server">
 	    <link>gnome-fs-server</link>
 	    <link>server</link>
+	    <link>redhat-network-server</link>
 	</icon>
 	<icon name="x-directory-remote-workgroup">
 	    <link>gnome-fs-network</link>
-	    <link>network</link>
 	</icon>
 	<icon name="x-directory-trash">
 	    <link>gnome-fs-trash-empty</link>
