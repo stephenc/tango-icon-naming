@@ -1,5 +1,9 @@
 2005-11-30  Rodney Dawes  <dobey@novell.com>
 
+	* configure.ac: Up version to 0.5.1 for release
+
+2005-11-30  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: KDE and Red Hat name updates (Niko Mirthes)
 	Move system-lock-screen to actions from apps (Rodney Dawes)
 	Add folder-new to actions in place of directory-new (Rodney Dawes)
