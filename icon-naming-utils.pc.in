@@ -1,0 +1,8 @@
+program_path: @program_path@
+
+Name: icon-naming-utils
+Description: Utilities for mapping legacy GNOME and KDE icon names to the new Icon Naming Specification
+Version: @VERSION@
+Requires: 
+Libs: 
+Cflags: 

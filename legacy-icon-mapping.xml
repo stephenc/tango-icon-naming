@@ -345,23 +345,38 @@
 	    <link>accessibility-directory</link>
 	    <link>access</link>
 	</icon>
+	<icon name="preferences-desktop-assistive-technology">
+	    <link>gnome-settings-accessibility-technologies</link>
+	</icon>
 	<icon name="preferences-desktop-font">
 	    <link>gnome-settings-font</link>
 	    <link>fonts</link>
+	</icon>
+	<icon name="preferences-desktop-keyboard-shortcuts">
+	    <link>gnome-settings-keybindings</link>
+	</icon>
+	<icon name="preferences-desktop-remote-desktop">
+	    <link>gnome-remote-desktop</link>
 	</icon>
 	<icon name="preferences-desktop-screensaver">
 	    <link>screensaver</link>
 	    <link>kscreensaver</link>
 	    <link>xscreensaver</link>
 	</icon>
-	<icon name="preferences-desktop-wallpaper">
-	    <link>wallpaper</link>
-	    <link>background</link>
-	    <link>gnome-settings-background</link>
+	<icon name="preferences-desktop-sound">
+	    <link>gnome-settings-sound</link>
 	</icon>
 	<icon name="preferences-desktop-theme">
 	    <link>gnome-settings-theme</link>
 	    <link>style</link>
+	</icon>
+	<icon name="preferences-desktop-wallpaper">
+	    <link>gnome-settings-background</link>
+	    <link>wallpaper</link>
+	    <link>background</link>
+	</icon>
+	<icon name="preferences-system-network-proxy">
+	    <link>proxy-config</link>
 	</icon>
 	<icon name="preferences-system-session">
 	    <link>gnome-session</link>
@@ -426,6 +441,7 @@
 	    <link>package_system</link>
 	</icon>
 	<icon name="preferences-desktop">
+	    <link>gnome-control-center</link>
 	    <link>gnome-settings</link>
 	    <link>gtk-preferences</link>
 	    <link>redhat-preferences</link>
@@ -454,14 +470,6 @@
 	<icon name="drive-cdrom">
 	    <link>gnome-dev-cdrom</link>
 	    <link>gnome-dev-dvd</link>
-	    <link>gnome-dev-cdrom-audio</link>
-	    <link>gnome-dev-disc-cdr</link>
-	    <link>gnome-dev-disc-cdrw</link>
-	    <link>gnome-dev-disc-dvdr</link>
-	    <link>gnome-dev-disc-dvdr-plus</link>
-	    <link>gnome-dev-disc-dvdram</link>
-	    <link>gnome-dev-disc-dvdrom</link>
-	    <link>gnome-dev-disc-dvdrw</link>
 	</icon>
 	<icon name="drive-harddisk">
 	    <link>gtk-harddisk</link>
@@ -502,17 +510,23 @@
 	<icon name="media-cdrom">
 	    <link>gtk-cdrom</link>
 	    <link>gnome-dev-cdrom-audio</link>
-	    <link>cdrom_unmount</link>
-	    <link>cdwriter_unmount</link>
-	    <link>dvd_unmount</link>
-	    <link>gnome-dev-disc-dvdr-plus</link>
+	    <link>gnome-dev-disc-cdr</link>
+	    <link>gnome-dev-disc-cdrw</link>
 	    <link>gnome-dev-disc-dvdr</link>
+	    <link>gnome-dev-disc-dvdr-plus</link>
 	    <link>gnome-dev-disc-dvdram</link>
 	    <link>gnome-dev-disc-dvdrom</link>
 	    <link>gnome-dev-disc-dvdrw</link>
+	    <link>cdrom_unmount</link>
+	    <link>cdwriter_unmount</link>
+	    <link>dvd_unmount</link>
 	</icon>
 	<icon name="media-floppy">
+	    <link>gnome-dev-floppy</link>
 	    <link>3floppy_unmount</link>
+	</icon>
+	<icon name="multimedia-player">
+	    <link>gnome-dev-ipod</link>
 	</icon>
 	<icon name="printer">
 	    <link>gnome-dev-printer</link>
@@ -609,70 +623,6 @@
 	    <link>gnome-mime-video</link>
 	    <link>video</link>
 	</icon>
-	<icon name="x-directory-desktop">
-	    <link>gnome-fs-desktop</link>
-	    <link>desktop</link>
-	</icon>
-	<icon name="x-directory-normal">
-	    <link>gnome-fs-directory</link>
-	    <link>stock_folder</link>
-	    <link>folder</link>
-	</icon>
-	<icon name="x-directory-normal-drag-accept">
-	    <link>gnome-fs-directory-accept</link>
-	</icon>
-	<icon name="x-directory-normal-home">
-	    <link>gnome-fs-home</link>
-	    <link>folder_home</link>
-	</icon>
-	<icon name="x-directory-normal-visiting">
-	    <link>gnome-fs-directory-visiting</link>
-	    <link>folder_open</link>
-	</icon>
-	<icon name="x-directory-remote">
-	    <link>gnome-fs-share</link>
-	    <link>gnome-fs-ftp</link>
-	    <link>gnome-fs-nfs</link>
-	    <link>gnome-fs-smb</link>
-	    <link>gnome-fs-ssh</link>
-	    <link>network_local</link>
-	</icon>
-	<icon name="x-directory-remote-ftp">
-	    <link>gnome-fs-ftp</link>
-	</icon>
-	<icon name="x-directory-remote-nfs">
-	    <link>gnome-fs-nfs</link>
-	    <link>nfs_unmount</link>
-	</icon>
-	<icon name="x-directory-remote-smb">
-	    <link>gnome-fs-smb</link>
-	</icon>
-	<icon name="x-directory-remote-ssh">
-	    <link>gnome-fs-ssh</link>
-	</icon>
-	<icon name="x-directory-remote-server">
-	    <link>gnome-fs-server</link>
-	    <link>server</link>
-	    <link>redhat-network-server</link>
-	</icon>
-	<icon name="x-directory-remote-workgroup">
-	    <link>gnome-fs-network</link>
-	</icon>
-	<icon name="x-directory-trash">
-	    <link>gnome-fs-trash-empty</link>
-	    <link>emptytrash</link>
-	    <link>trashcan_empty</link>
-	    <link>gnome-stock-trash</link>
-	    <link>gtk-delete</link>
-	    <link>stock_delete</link>
-	</icon>
-	<icon name="x-directory-trash-full">
-	    <link>gnome-fs-trash-full</link>
-	    <link>edittrash</link>
-	    <link>trashcan_full</link>
-	    <link>gnome-stock-trash-full</link>
-	    <link>stock_trash_full</link>
-	</icon>
 	<icon name="x-office-address-book">
 	    <link>stock_addressbook</link>
 	</icon>
@@ -704,6 +654,49 @@
 	    <link>spreadsheet</link>
 	</icon>
     </context>
+    <context dir="places">
+	<icon name="folder">
+	    <link>gnome-fs-directory</link>
+	    <link>stock_folder</link>
+	</icon>
+	<icon name="folder-remote">
+	    <link>gnome-fs-share</link>
+	    <link>gnome-fs-ftp</link>
+	    <link>gnome-fs-nfs</link>
+	    <link>gnome-fs-smb</link>
+	    <link>gnome-fs-ssh</link>
+	    <link>network_local</link>
+	</icon>
+	<icon name="network-server">
+	    <link>gnome-fs-server</link>
+	    <link>server</link>
+	    <link>redhat-network-server</link>
+	</icon>
+	<icon name="network-workgroup">
+	    <link>gnome-fs-network</link>
+	    <link>gtk-network</link>
+	    <link>network</link>
+	</icon>
+	<icon name="start-here">
+	    <link>gnome-main-menu</link>
+	</icon>
+	<icon name="user-desktop">
+	    <link>gnome-fs-desktop</link>
+	    <link>desktop</link>
+	</icon>
+	<icon name="user-home">
+	    <link>gnome-fs-home</link>
+	    <link>folder_home</link>
+	</icon>
+	<icon name="user-trash">
+	    <link>gnome-fs-trash-empty</link>
+	    <link>emptytrash</link>
+	    <link>trashcan_empty</link>
+	    <link>gnome-stock-trash</link>
+	    <link>gtk-delete</link>
+	    <link>stock_delete</link>
+	</icon>
+    </context>
     <context dir="status">
 	<icon name="dialog-error">
 	    <link>gtk-dialog-error</link>
@@ -729,11 +722,28 @@
 	    <link>messagebox_warning</link>
 	    <link>important</link>
 	</icon>
+	<icon name="folder-drag-accept">
+	    <link>gnome-fs-directory-accept</link>
+	</icon>
+	<icon name="folder-open">
+	    <link>stock_open</link>
+	</icon>
+	<icon name="folder-visiting">
+	    <link>gnome-fs-directory-visiting</link>
+	    <link>folder_open</link>
+	</icon>
 	<icon name="image-loading">
 	    <link>gnome-fs-loading-icon</link>
 	</icon>
 	<icon name="image-missing">
 	    <link>gtk-missing-image</link>
+	</icon>
+	<icon name="user-trash-full">
+	    <link>gnome-fs-trash-full</link>
+	    <link>edittrash</link>
+	    <link>trashcan_full</link>
+	    <link>gnome-stock-trash-full</link>
+	    <link>stock_trash_full</link>
 	</icon>
     </context>
 </mapping>

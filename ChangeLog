@@ -1,3 +1,32 @@
+2005-12-07  Rodney Dawes  <dobey@novell.com>
+
+	* Makefile.am: Install the script to $(libexecdir) instead of $(bindir)
+	Create a pc file from the new icon-naming-utils.pc.in
+
+	* icon-naming-utils.pc.in: New pkgconfig file for checking the version
+	and path to the script
+
+	* icon-name-mapping.pl.in: Check that the context was passed in, and
+	print the usage info if not
+	(tls_map_icons): Add a block of code to create symlinks to the .icon
+	files as well as svg and png
+	(usage): Add a note about how the script is to be used
+
+	* legacy-icon-mapping.xml: Add links for some new deprecated icons
+	which are not in the spec, to fill out the control center icons a bit
+	Add a link from gnome-control-center to preferences-desktop
+	Remove a bunch of duplicate entries from drive-cdrom linking
+	Link gnome-dev-floppy to media-floppy
+	Link gnome-dev-ipod to multimedia-player
+	Move all the x-directory icons out of mimetypes and into places or
+	status as appropriate for the new verison of the specification, using
+	their new names
+
+2005-12-05  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Add link for gnome-control-center to the
+	generic desktop preferences icon
+
 2005-11-30  Rodney Dawes  <dobey@novell.com>
 
 	* configure.ac: Up version to 0.5.1 for release

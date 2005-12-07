@@ -53,6 +53,11 @@ sub tls_map_icons {
                 system ("ln -s $icon->{name}.svg $legacy.svg")
                     if (! -e "$legacy.svg");
             }
+        } elsif (-f "$icon->{name}.icon") {
+            foreach my $legacy (@{$icon->{link}}) {
+                system ("ln -s $icon->{name}.icon $legacy.icon")
+                    if (! -e "$legacy.icon");
+            }
         }
     }
     chdir $cwd;
@@ -63,10 +68,17 @@ sub usage {
 
   -c, --context=<dirname>       Set up mapping for Context <dirname>
 
+This utility must be run from the <theme>/<size> directory, with a
+context passsed in as the argument.
+
 ";
 
     exit 1;
 }
 
-my $iconmap = tls_load_mapping ("@DATADIR@/legacy-icon-mapping.xml");
-tls_map_icons ($iconmap, $condir);
+if (not defined $condir) {
+    usage ();
+} else {
+    my $iconmap = tls_load_mapping ("@DATADIR@/legacy-icon-mapping.xml");
+    tls_map_icons ($iconmap, $condir);
+}
