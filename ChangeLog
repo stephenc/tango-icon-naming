@@ -4,6 +4,11 @@
 
 2005-12-07  Rodney Dawes  <dobey@novell.com>
 
+	* icon-naming-utils.pc.in: Fix the variable declaration of program_path
+	to be defined properly for pkg-config
+
+2005-12-07  Rodney Dawes  <dobey@novell.com>
+
 	* Makefile.am: Install the script to $(libexecdir) instead of $(bindir)
 	Create a pc file from the new icon-naming-utils.pc.in
 
