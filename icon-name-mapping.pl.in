@@ -14,6 +14,7 @@ use Getopt::Long;
 my $PROGRAM = "icon-name-mapping";
 
 my $condir;
+my $LN_S = ($^O eq 'MSWin32' ? 'cp' : 'ln -s');
 
 ############################################################################
 my @default_getopt_config = ("permute", "pass_through", "bundling",
@@ -45,17 +46,17 @@ sub tls_map_icons {
     foreach my $icon (@{$mapping->{context}->{$dirname}->{icon}}) {
         if (-f "$icon->{name}.png") {
             foreach my $legacy (@{$icon->{link}}) {
-                system ("ln -s $icon->{name}.png $legacy.png")
+                system ("$LN_S $icon->{name}.png $legacy.png")
                     if (! -e "$legacy.png");
             }
         } elsif (-f "$icon->{name}.svg") {
             foreach my $legacy (@{$icon->{link}}) {
-                system ("ln -s $icon->{name}.svg $legacy.svg")
+                system ("$LN_S $icon->{name}.svg $legacy.svg")
                     if (! -e "$legacy.svg");
             }
         } elsif (-f "$icon->{name}.icon") {
             foreach my $legacy (@{$icon->{link}}) {
-                system ("ln -s $icon->{name}.icon $legacy.icon")
+                system ("$LN_S $icon->{name}.icon $legacy.icon")
                     if (! -e "$legacy.icon");
             }
         }

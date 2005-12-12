@@ -1,3 +1,12 @@
+2005-12-11  Rodney Dawes  <dobey@novell.com>
+
+	* icon-name-mapping.pl.in: Define $LN_S to cp if on win32 and ln -s
+	otherwise, so that we can work properly on win32
+	(tls_map_icons): Use the new $LN_S variable to map icons, so that the
+	mapping will work properly on win32 as well
+
+	* legacy-icon-mapping.xml: Add a link for gtk-floppy to media-floppy
+
 2005-12-07  Rodney Dawes  <dobey@novell.com>
 
 	* configure.ac: Up version to 0.6.0 for release

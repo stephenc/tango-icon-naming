@@ -523,6 +523,7 @@
 	</icon>
 	<icon name="media-floppy">
 	    <link>gnome-dev-floppy</link>
+	    <link>gtk-floppy</link>
 	    <link>3floppy_unmount</link>
 	</icon>
 	<icon name="multimedia-player">
