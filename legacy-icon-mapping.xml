@@ -739,6 +739,9 @@
 	<icon name="image-missing">
 	    <link>gtk-missing-image</link>
 	</icon>
+	<icon name="network-wireless-encrypted">
+	    <link>gnome-dev-wavelan-encrypted</link>
+	</icon>
 	<icon name="user-trash-full">
 	    <link>gnome-fs-trash-full</link>
 	    <link>edittrash</link>
