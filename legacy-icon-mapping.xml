@@ -376,6 +376,7 @@
 	    <link>background</link>
 	</icon>
 	<icon name="preferences-system-network-proxy">
+	    <link>stock_proxy</link>
 	    <link>proxy-config</link>
 	</icon>
 	<icon name="preferences-system-session">
@@ -434,11 +435,15 @@
 	</icon>
 	<icon name="applications-office">
 	    <link>gnome-applications</link>
+	    <link>package_office</link>
 	    <link>redhat-office</link>
 	</icon>
 	<icon name="applications-system">
 	    <link>gnome-system</link>
 	    <link>package_system</link>
+	</icon>
+	<icon name="applications-utilities">
+	    <link>package_utilities</link>
 	</icon>
 	<icon name="preferences-desktop">
 	    <link>gnome-control-center</link>
@@ -666,7 +671,7 @@
 	    <link>gnome-fs-nfs</link>
 	    <link>gnome-fs-smb</link>
 	    <link>gnome-fs-ssh</link>
-	    <link>network_local</link>
+	    <link>network</link>
 	</icon>
 	<icon name="network-server">
 	    <link>gnome-fs-server</link>
@@ -676,7 +681,7 @@
 	<icon name="network-workgroup">
 	    <link>gnome-fs-network</link>
 	    <link>gtk-network</link>
-	    <link>network</link>
+	    <link>network_local</link>
 	</icon>
 	<icon name="start-here">
 	    <link>gnome-main-menu</link>
