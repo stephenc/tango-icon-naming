@@ -212,6 +212,9 @@
 	    <link>gnome-stock-mail-new</link>
 	    <link>mail_new</link>
 	</icon>
+	<icon name="media-eject">
+	    <link>player_eject</link>
+	</icon>
 	<icon name="media-playback-pause">
 	    <link>gtk-media-pause</link>
 	    <link>stock_media-pause</link>
@@ -324,12 +327,8 @@
 	    <link>redhat-email</link>
 	</icon>
 	<icon name="internet-web-browser">
-	    <link>stock_internet</link>
 	    <link>browser</link>
-	    <link>gnome-globe</link>
 	    <link>web-browser</link>
-	    <link>package_network</link>
-	    <link>redhat-internet</link>
 	    <link>redhat-web-browser</link>
 	</icon>
 	<icon name="multimedia-volume-control">
@@ -354,9 +353,11 @@
 	</icon>
 	<icon name="preferences-desktop-keyboard-shortcuts">
 	    <link>gnome-settings-keybindings</link>
+	    <link>key_bindings</link>
 	</icon>
 	<icon name="preferences-desktop-remote-desktop">
 	    <link>gnome-remote-desktop</link>
+	    <link>krfb</link>
 	</icon>
 	<icon name="preferences-desktop-screensaver">
 	    <link>screensaver</link>
@@ -365,6 +366,7 @@
 	</icon>
 	<icon name="preferences-desktop-sound">
 	    <link>gnome-settings-sound</link>
+	    <link>knotify</link>
 	</icon>
 	<icon name="preferences-desktop-theme">
 	    <link>gnome-settings-theme</link>
@@ -378,6 +380,7 @@
 	<icon name="preferences-system-network-proxy">
 	    <link>stock_proxy</link>
 	    <link>proxy-config</link>
+	    <link>proxy</link>
 	</icon>
 	<icon name="preferences-system-session">
 	    <link>gnome-session</link>
@@ -428,6 +431,12 @@
 	    <link>package_graphics</link>
 	    <link>redhat-graphics</link>
 	</icon>
+	<icon name="applications-internet">
+	    <link>gnome-globe</link>
+	    <link>stock_internet</link>
+	    <link>package_network</link>
+	    <link>redhat-internet</link>
+	</icon>
 	<icon name="applications-multimedia">
 	    <link>gnome-multimedia</link>
 	    <link>package_multimedia</link>
@@ -450,6 +459,7 @@
 	    <link>gnome-settings</link>
 	    <link>gtk-preferences</link>
 	    <link>redhat-preferences</link>
+	    <link>kcontrol</link>
 	</icon>
     </context>
     <context dir="devices">
@@ -533,6 +543,12 @@
 	</icon>
 	<icon name="multimedia-player">
 	    <link>gnome-dev-ipod</link>
+	</icon>
+	<icon name="network-wired">
+	    <link>gnome-dev-ethernet</link>
+	</icon>
+	<icon name="network-wireless">
+	    <link>gnome-dev-wavelan</link>
 	</icon>
 	<icon name="printer">
 	    <link>gnome-dev-printer</link>
@@ -672,6 +688,9 @@
 	    <link>gnome-fs-smb</link>
 	    <link>gnome-fs-ssh</link>
 	    <link>network</link>
+	</icon>
+	<icon name="folder-saved-search">
+	    <link>application-x-gnome-saved-search</link>
 	</icon>
 	<icon name="network-server">
 	    <link>gnome-fs-server</link>
