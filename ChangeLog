@@ -1,5 +1,9 @@
 2006-01-13  Rodney Dawes  <dobey@novell.com>
 
+	* configure.ac: Up version to 0.6.5 for release
+
+2006-01-13  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Add a bunch of links for gnome-icon-theme
 
 2006-01-13  Niko Mirthes  <nmirthes@gmail.com>
