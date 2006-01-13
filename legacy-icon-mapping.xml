@@ -219,9 +219,11 @@
 	</icon>
 	<icon name="mail-forward">
 	    <link>gnome-stock-mail-fwd</link>
+	    <link>mail_forward</link>
 	</icon>
 	<icon name="mail-mark-junk">
 	    <link>stock_spam</link>
+	    <link>mail_spam</link>
 	</icon>
 	<icon name="mail-mark-not-junk">
 	    <link>stock_not-spam</link>
@@ -239,10 +241,12 @@
 	</icon>
 	<icon name="mail-reply-all">
 	    <link>stock_mail-reply-to-all</link>
+	    <link>mail_replyall</link>
 	</icon>
 	<icon name="mail-reply-sender">
 	    <link>gnome-stock-mail-rpl</link>
 	    <link>stock_mail-reply</link>
+	    <link>mail_reply</link>
 	</icon>
 	<icon name="mail-send-receive">
 	    <link>stock_mail-send-receive</link>
@@ -359,6 +363,7 @@
 	</icon>
 	<icon name="internet-mail">
 	    <link>email</link>
+	    <link>mail_generic</link>
 	    <link>redhat-email</link>
 	</icon>
 	<icon name="internet-web-browser">
@@ -389,6 +394,9 @@
 	<icon name="preferences-desktop-keyboard-shortcuts">
 	    <link>gnome-settings-keybindings</link>
 	    <link>key_bindings</link>
+	</icon>
+	<icon name="preferences-desktop-locale">
+	    <link>locale</link>
 	</icon>
 	<icon name="preferences-desktop-remote-desktop">
 	    <link>gnome-remote-desktop</link>
@@ -496,9 +504,12 @@
 	    <link>gnome-settings</link>
 	    <link>gtk-preferences</link>
 	    <link>redhat-preferences</link>
-	    <link>kcontrol</link>
+	</icon>
+	<icon name="preferences-desktop-peripherals">
+	    <link>input_devices_settings</link>
 	</icon>
 	<icon name="preferences-system">
+	    <link>package_settings</link>
 	    <link>redhat-system_settings</link>
 	</icon>
     </context>
@@ -695,6 +706,7 @@
 	<icon name="x-office-calendar">
 	    <link>stock_calendar</link>
 	    <link>plan</link>
+	    <link>vcalendar</link>
 	</icon>
 	<icon name="x-office-document">
 	    <link>gnome-mime-application-msword</link>
