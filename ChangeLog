@@ -1,3 +1,20 @@
+2006-01-13  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Add links for x-office-calendar and
+	x-office-presentation
+	Link gnome-mime-application-x-killustrator to image-x-generic
+	Link folder_tar to package-x-generic
+	Link package_editors to text-x-generic
+	Link contents2 to x-office-address-book
+
+2006-01-13  Eskil Bylund <eskil@letterboxes.org>
+
+	* legacy-icon-mapping.xml: Add links for edit-find-replace, list-*,
+	and more stock mail icons
+	Link system-config-users to system-users
+	Link redhat-system_tools to applications-system
+	Link redhat-system_settins to preferences-system
+	
 2006-01-06  Rodney Dawes  <dobey@novell.com>
 
 	* configure.ac: Up version to 0.6.3 for release
