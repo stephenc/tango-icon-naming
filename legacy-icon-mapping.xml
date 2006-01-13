@@ -396,6 +396,7 @@
 	    <link>key_bindings</link>
 	</icon>
 	<icon name="preferences-desktop-locale">
+	    <link>config-language</link>
 	    <link>locale</link>
 	</icon>
 	<icon name="preferences-desktop-remote-desktop">
@@ -692,6 +693,7 @@
 	    <link>gnome-mime-text-x-csh</link>
 	    <link>gnome-mime-text-x-python</link>
 	    <link>gnome-mime-text-x-zsh</link>
+	    <link>stock_script</link>
 	    <link>shellscript</link>
 	</icon>
 	<icon name="video-x-generic">
@@ -760,6 +762,15 @@
 	<icon name="folder-saved-search">
 	    <link>application-x-gnome-saved-search</link>
 	</icon>
+	<icon name="mail-folder-sent">
+	    <link>stock_sent-mail</link>
+	</icon>
+	<icon name="mail-inbox">
+	    <link>stock_inbox</link>
+	</icon>
+	<icon name="mail-outbox">
+	    <link>stock_outbox</link>
+	</icon>
 	<icon name="network-server">
 	    <link>gnome-fs-server</link>
 	    <link>server</link>
@@ -791,6 +802,26 @@
 	</icon>
     </context>
     <context dir="status">
+	<icon name="appointment-missed">
+	    <link>stock_appointment-reminder-excl</link>
+	</icon>
+	<icon name="appointment-soon">
+	    <link>stock_appointment-reminder</link>
+	</icon>
+	<icon name="audio-volume-high">
+	    <link>stock_volume-max</link>
+	    <link>stock_volume</link>
+	</icon>
+	<icon name="audio-volume-low">
+	    <link>stock_volume-min</link>
+	</icon>
+	<icon name="audio-volume-medium">
+	    <link>stock_volume-med</link>
+	</icon>
+	<icon name="audio-volume-muted">
+	    <link>stock_volume-0</link>
+	    <link>stock_volume-mute</link>
+	</icon>
 	<icon name="dialog-error">
 	    <link>gtk-dialog-error</link>
 	    <link>stock_dialog-error</link>
@@ -831,6 +862,12 @@
 	<icon name="image-missing">
 	    <link>gtk-missing-image</link>
 	</icon>
+	<icon name="media-playlist-repeat">
+	    <link>stock_repeat</link>
+	</icon>
+	<icon name="media-playlist-shuffle">
+	    <link>stock_shuffle</link>
+	</icon>
 	<icon name="network-wireless-encrypted">
 	    <link>gnome-dev-wavelan-encrypted</link>
 	</icon>
@@ -840,6 +877,37 @@
 	    <link>trashcan_full</link>
 	    <link>gnome-stock-trash-full</link>
 	    <link>stock_trash_full</link>
+	</icon>
+	<icon name="weather-clear">
+	    <link>stock_weather-sunny</link>
+	    <link>sunny</link>
+	</icon>
+	<icon name="weather-few-clouds">
+	    <link>stock_weather-few-clouds</link>
+	    <link>cloudy1</link>
+	</icon>
+	<icon name="weather-fog">
+	    <link>stock_weather-fog</link>
+	    <link>fog</link>
+	</icon>
+	<icon name="weather-overcast">
+	    <link>stock_weather-cloudy</link>
+	    <link>overcast</link>
+	</icon>
+	<icon name="weather-showers">
+	    <link>stock_weather-showers</link>
+	    <link>shower3</link>
+	</icon>
+	<icon name="weather-showers-scattered">
+	    <link>light_rain</link>
+	</icon>
+	<icon name="weather-snow">
+	    <link>stock_weather-snow</link>
+	    <link>snow4</link>
+	</icon>
+	<icon name="weather-storm">
+	    <link>stock_weather-storm</link>
+	    <link>tstorm3</link>
 	</icon>
     </context>
 </mapping>
