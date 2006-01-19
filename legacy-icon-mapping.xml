@@ -716,7 +716,7 @@
 	    <link>gnome-mime-application-postscript</link>
 	    <link>gnome-mime-application-rtf</link>
 	    <link>gnome-mime-application-vnd.oasis.opendocument.text</link>
-	    <link>gnome-mime-applciation-vnd.stardivision.writer</link>
+	    <link>gnome-mime-application-vnd.stardivision.writer</link>
 	    <link>gnome-mime-application-vnd.sun.xml.writer</link>
 	    <link>gnome-mime-application-wordperfect</link>
 	    <link>gnome-mime-application-x-abiword</link>

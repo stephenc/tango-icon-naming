@@ -1,3 +1,9 @@
+2006-01-19  Sebastien Bacher <seb128@debian.org>
+
+	* legacy-icon-mapping.xml: Fix typo in starwriter MIME type link
+
+	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=5598
+
 2006-01-19  Rodney Dawes  <dobey@novell.com>
 
 	* legacy-icon-mapping.xml: Add links for night weather images
