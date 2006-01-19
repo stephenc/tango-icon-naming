@@ -757,6 +757,7 @@
 	    <link>gnome-fs-nfs</link>
 	    <link>gnome-fs-smb</link>
 	    <link>gnome-fs-ssh</link>
+	    <link>gnome-mime-x-directory-smb-share</link>
 	    <link>network</link>
 	</icon>
 	<icon name="folder-saved-search">
@@ -773,11 +774,13 @@
 	</icon>
 	<icon name="network-server">
 	    <link>gnome-fs-server</link>
+	    <link>gnome-mime-x-directory-smb-server</link>
 	    <link>server</link>
 	    <link>redhat-network-server</link>
 	</icon>
 	<icon name="network-workgroup">
 	    <link>gnome-fs-network</link>
+	    <link>gnome-mime-x-directory-smb-workgroup</link>
 	    <link>gtk-network</link>
 	    <link>network_local</link>
 	</icon>
