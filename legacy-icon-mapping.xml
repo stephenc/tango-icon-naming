@@ -882,9 +882,15 @@
 	    <link>stock_weather-sunny</link>
 	    <link>sunny</link>
 	</icon>
+	<icon name="weather-clear-night">
+	    <link>stock_weather-night-clear</link>
+	</icon>
 	<icon name="weather-few-clouds">
 	    <link>stock_weather-few-clouds</link>
 	    <link>cloudy1</link>
+	</icon>
+	<icon name="stock-weather-few-clouds-night">
+	    <link>stock_weather-night-few-clouds</link>
 	</icon>
 	<icon name="weather-fog">
 	    <link>stock_weather-fog</link>
