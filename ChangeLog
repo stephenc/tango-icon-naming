@@ -1,5 +1,9 @@
 2006-01-20  Rodney Dawes  <dobey@novell.com>
 
+	* README: Add some text and a link to the Icon Naming Spec
+
+2006-01-20  Rodney Dawes  <dobey@novell.com>
+
 	* Makefile.am: Don't do the .pc file generation here
 	Move $(pkgconfig_DATA) to DISTCLEANFILES rather than CLEANFILES
 
