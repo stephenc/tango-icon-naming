@@ -1,5 +1,9 @@
 2006-01-20  Rodney Dawes  <dobey@novell.com>
 
+	* legacy-icon-mapping.xml: Fix typo in weather-few-clouds-night
+	
+2006-01-20  Rodney Dawes  <dobey@novell.com>
+
 	* configure.ac: Up version to 0.6.6 for release
 	
 2006-01-20  Rodney Dawes  <dobey@novell.com>
