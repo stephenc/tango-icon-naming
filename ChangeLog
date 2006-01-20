@@ -1,9 +1,19 @@
-2006-01-19  Rodney Dawe  <dobey@novell.com>
+2006-01-20  Rodney Dawes  <dobey@novell.com>
+
+	* Makefile.am: Don't do the .pc file generation here
+	Move $(pkgconfig_DATA) to DISTCLEANFILES rather than CLEANFILES
+
+	* configure.ac: Generate the .pc file here
+
+	* icon-naming-utils.pc.in: Add prefix and exec_prefix variables so
+	that libexecdir can be expanded fully
+
+2006-01-19  Rodney Dawes  <dobey@novell.com>
 
 	* legacy-icon-mapping.xml: Move gtk-delete and stock_delete to be
 	links to the edit-delete icon rather than user-trash
 
-2006-01-19  Niko Mirthes <nmirthes@gmail.com>
+2006-01-19  Niko Mirthes  <nmirthes@gmail.com>
 
 	* legacy-icon-mapping.xml: More KDE icon link additions
 	

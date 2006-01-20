@@ -1,4 +1,6 @@
-program_path=@program_path@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+program_path=@libexecdir@
 
 Name: icon-naming-utils
 Description: Utilities for mapping legacy GNOME and KDE icon names to the new Icon Naming Specification

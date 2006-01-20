@@ -25,6 +25,7 @@ fi
 
 AC_CONFIG_FILES([
 Makefile
+icon-naming-utils.pc
 ])
 
 AC_OUTPUT

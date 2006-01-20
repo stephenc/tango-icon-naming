@@ -6,10 +6,6 @@ libexec_SCRIPTS = icon-name-mapping
 	    -e "s#\@DATADIR\@#$(pkgdatadir)#g"	\
 	< $< > $@
 
-%.pc: %.pc.in
-	sed -e "s#\@program_path\@#$(libexecdir)#g" \
-            -e "s#\@VERSION\@#$(VERSION)#g" < $< > $@
-
 pkgconfig_in_files = icon-naming-utils.pc.in
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = $(pkgconfig_in_files:.pc.in=.pc)
@@ -26,8 +22,10 @@ EXTRA_DIST =				\
 	$(pkgdata_DATA)
 
 CLEANFILES =				\
-	$(pkgconfig_DATA)		\
 	$(libexec_SCRIPTS)
+
+DISTCLEANFILES =			\
+	$(pkgconfig_DATA)
 
 MAINTAINERCLEANFILES =			\
 	Makefile.in			\
