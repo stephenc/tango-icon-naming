@@ -1,3 +1,12 @@
+2006-01-19  Rodney Dawe  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Move gtk-delete and stock_delete to be
+	links to the edit-delete icon rather than user-trash
+
+2006-01-19  Niko Mirthes <nmirthes@gmail.com>
+
+	* legacy-icon-mapping.xml: More KDE icon link additions
+	
 2006-01-19  Rodney Dawes  <dobey@novell.com>
 
 	* legacy-icon-mapping.xml: Map the legacy MIME type icons for SMB

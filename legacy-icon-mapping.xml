@@ -76,6 +76,11 @@
 	    <link>stock_cut</link>
 	    <link>editcut</link>
 	</icon>
+	<icon name="edit-delete">
+	    <link>gtk-delete</link>
+	    <link>stock_delete</link>
+	    <link>editdelete</link>
+	</icon>
 	<icon name="edit-find">
 	    <link>gtk-find</link>
 	    <link>stock_search</link>
@@ -213,9 +218,11 @@
 	</icon>
 	<icon name="list-add">
 	    <link>gtk-add</link>
+	    <link>add</link>
 	</icon>
 	<icon name="list-remove">
 	    <link>gtk-remove</link>
+	    <link>remove</link>
 	</icon>
 	<icon name="mail-forward">
 	    <link>gnome-stock-mail-fwd</link>
@@ -505,6 +512,7 @@
 	    <link>gnome-settings</link>
 	    <link>gtk-preferences</link>
 	    <link>redhat-preferences</link>
+	    <link>kcontrol</link>
 	</icon>
 	<icon name="preferences-desktop-peripherals">
 	    <link>input_devices_settings</link>
@@ -595,6 +603,7 @@
 	</icon>
 	<icon name="multimedia-player">
 	    <link>gnome-dev-ipod</link>
+	    <link>ipod_mount</link>
 	</icon>
 	<icon name="network-wired">
 	    <link>gnome-dev-ethernet</link>
@@ -670,6 +679,7 @@
 	    <link>gnome-mime-text-vnd.wap.wml</link>
 	    <link>gnome-mime-application-x-php</link>
 	    <link>html</link>
+	    <link>www</link>
 	</icon>
 	<icon name="text-x-generic">
 	    <link>gnome-mime-text</link>
@@ -800,8 +810,6 @@
 	    <link>emptytrash</link>
 	    <link>trashcan_empty</link>
 	    <link>gnome-stock-trash</link>
-	    <link>gtk-delete</link>
-	    <link>stock_delete</link>
 	</icon>
     </context>
     <context dir="status">
