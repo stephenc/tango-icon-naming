@@ -1,5 +1,9 @@
 2006-01-20  Rodney Dawes  <dobey@novell.com>
 
+	* configure.ac: Up version to 0.6.6 for release
+	
+2006-01-20  Rodney Dawes  <dobey@novell.com>
+
 	* README: Add some text and a link to the Icon Naming Spec
 
 2006-01-20  Rodney Dawes  <dobey@novell.com>
