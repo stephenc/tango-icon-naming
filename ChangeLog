@@ -1,5 +1,9 @@
 2006-01-22  Rodney Dawes  <dobey@novell.com>
 
+	* configure.ac: Up version to 0.6.6.1 for release
+
+2006-01-22  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Add animations context and link the
 	process-working icon to gnome-spinner for compatibility
 
