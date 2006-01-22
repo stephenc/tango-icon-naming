@@ -346,6 +346,11 @@
 	    <link>window_new</link>
 	</icon>
     </context>
+    <context dir="animations">
+	<icon name="process-working">
+	    <link>gnome-spinner</link>
+	</icon>
+    </context>
     <context dir="apps">
 	<icon name="accessories-calculator">
 	    <link>gnome-calculator</link>
