@@ -227,6 +227,7 @@
 	<icon name="mail-forward">
 	    <link>gnome-stock-mail-fwd</link>
 	    <link>mail_forward</link>
+	    <link>stock_mail-forward</link>
 	</icon>
 	<icon name="mail-mark-junk">
 	    <link>stock_spam</link>
