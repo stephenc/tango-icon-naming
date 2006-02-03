@@ -1,5 +1,9 @@
 2006-02-03  Rodney Dawes  <dobey@novell.com>
 
+	* configure.ac: Up version to 0.6.7 for release
+
+2006-02-03  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Add gtk-file as link to text-x-preview
 	Add process-idle for backward compat with gnome-spinner-rest
 
