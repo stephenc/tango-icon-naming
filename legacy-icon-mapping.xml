@@ -607,6 +607,12 @@
 	    <link>gtk-floppy</link>
 	    <link>3floppy_unmount</link>
 	</icon>
+	<icon name="media-jaz">
+	    <link>gnome-dev-jazdisk</link>
+	</icon>
+	<icon name="media-zip">
+	    <link>gnome-dev-zipdisk</link>
+	</icon>
 	<icon name="multimedia-player">
 	    <link>gnome-dev-ipod</link>
 	    <link>ipod_mount</link>
