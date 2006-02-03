@@ -1,3 +1,9 @@
+2006-02-03  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mappping.xml: Add a link for the application/xhtml+xml
+	mime type to be handled properly in GNOME and use the text-html icon
+	Add a mapping for text-x-preview and move gnome-fs-regular to it
+
 2006-01-24  Rodney Dawes  <dobey@novell.com>
 
 	* legacy-icon-mapping.xml: Link stock_mail-forward to the new

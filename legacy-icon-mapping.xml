@@ -684,6 +684,7 @@
 	    <link>gnome-mime-text-html</link>
 	    <link>gnome-mime-text-vnd.wap.wml</link>
 	    <link>gnome-mime-application-x-php</link>
+	    <link>gnome-mime-application-xhtml+xml</link>
 	    <link>html</link>
 	    <link>www</link>
 	</icon>
@@ -696,8 +697,10 @@
 	    <link>txt</link>
 	    <link>txt2</link>
 	    <link>unknown</link>
-	    <link>gnome-fs-regular</link>
 	    <link>package_editors</link>
+	</icon>
+	<icon name="text-x-preview">
+	    <link>gnome-fs-regular</link>
 	</icon>
 	<icon name="text-x-generic-template">
 	    <link>template_source</link>
