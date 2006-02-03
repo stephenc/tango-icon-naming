@@ -1,5 +1,10 @@
 2006-02-03  Rodney Dawes  <dobey@novell.com>
 
+	* legacy-icon-mapping.xml: Add gtk-file as link to text-x-preview
+	Add process-idle for backward compat with gnome-spinner-rest
+
+2006-02-03  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Add mappings for media-jaz and media-zip
 	and link the related gnome-dev-* icons to them
 

@@ -348,6 +348,9 @@
 	</icon>
     </context>
     <context dir="animations">
+	<icon name="process-idle">
+	    <link>gnome-spinner-rest</link>
+	</icon>
 	<icon name="process-working">
 	    <link>gnome-spinner</link>
 	</icon>
@@ -707,6 +710,7 @@
 	</icon>
 	<icon name="text-x-preview">
 	    <link>gnome-fs-regular</link>
+	    <link>gtk-file</link>
 	</icon>
 	<icon name="text-x-generic-template">
 	    <link>template_source</link>
