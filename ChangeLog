@@ -1,5 +1,9 @@
 2006-02-07  Rodney Dawes  <dobey@novell.com>
 
+	* configure.ac: Up version to 0.6.8 for release
+
+2006-02-07  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Add font-x-generic icon and links to it
 	Link gnome-mime-text-x-sh to text-x-script
 	Link gnome-mime-text-x-vcard to x-office-address-book
