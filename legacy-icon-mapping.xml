@@ -389,6 +389,7 @@
 	</icon>
 	<icon name="multimedia-volume-control">
 	    <link>gnome-mixer</link>
+	    <link>volume-knob</link>
 	    <link>arts</link>
 	    <link>kcmsound</link>
 	    <link>multimedia</link>

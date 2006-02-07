@@ -54,7 +54,9 @@ sub tls_map_icons {
                 system ("$LN_S $icon->{name}.svg $legacy.svg")
                     if (! -e "$legacy.svg");
             }
-        } elsif (-f "$icon->{name}.icon") {
+        }
+
+        if (-f "$icon->{name}.icon") {
             foreach my $legacy (@{$icon->{link}}) {
                 system ("$LN_S $icon->{name}.icon $legacy.icon")
                     if (! -e "$legacy.icon");

@@ -1,3 +1,13 @@
+2006-02-07  Rodney Dawes  <dobey@novell.com>
+
+	* icon-name-mapping.pl.in (tls_map_icons): Don't use an elsif for the
+	linking of .icon files, as they need to always be checked for
+
+	* legacy-icon-mapping.xml: Add a link for the volume-knob icon used
+	by the GNOME mixer applet to multimedia-volume-control
+
+	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=5834
+
 2006-02-03  Rodney Dawes  <dobey@novell.com>
 
 	* configure.ac: Up version to 0.6.7 for release
