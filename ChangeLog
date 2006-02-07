@@ -1,5 +1,14 @@
 2006-02-07  Rodney Dawes  <dobey@novell.com>
 
+	* legacy-icon-mapping.xml: Add font-x-generic icon and links to it
+	Link gnome-mime-text-x-sh to text-x-script
+	Link gnome-mime-text-x-vcard to x-office-address-book
+	Link gnome-mime-text-x-vcalendar to x-office-calendar
+	Link ximian-evolution-calendar to office-calendar
+	Link ximian-evolution-emvail to internet-mail
+
+2006-02-07  Rodney Dawes  <dobey@novell.com>
+
 	* icon-name-mapping.pl.in (tls_map_icons): Don't use an elsif for the
 	linking of .icon files, as they need to always be checked for
 

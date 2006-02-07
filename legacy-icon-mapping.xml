@@ -395,6 +395,7 @@
 	    <link>multimedia</link>
 	</icon>
 	<icon name="office-calendar">
+	    <link>ximian-evolution-calendar</link>
 	    <link>date</link>
 	</icon>
 	<icon name="preferences-desktop-accessibility">
@@ -659,6 +660,15 @@
 	    <link>gnome-mime-application-ogg</link>
 	    <link>sound</link>
 	</icon>
+	<icon name="font-x-generic">
+	    <link>gnome-mime-application-x-font-afm</link>
+	    <link>gnome-mime-application-x-font-bdf</link>
+	    <link>gnome-mime-application-x-font-linux-psf</link>
+	    <link>gnome-mime-application-x-font-pcf</link>
+	    <link>gnome-mime-application-x-font-sunos-news</link>
+	    <link>gnome-mime-application-x-font-ttf</link>
+	    <link>gnome-mime-x-font-afm</link>
+	</icon>
 	<icon name="image-x-generic">
 	    <link>gnome-mime-image</link>
 	    <link>gnome-mime-application-x-killustrator</link>
@@ -722,6 +732,7 @@
 	    <link>gnome-mime-application-x-shellscript</link>
 	    <link>gnome-mime-text-x-csh</link>
 	    <link>gnome-mime-text-x-python</link>
+	    <link>gnome-mime-text-x-sh</link>
 	    <link>gnome-mime-text-x-zsh</link>
 	    <link>stock_script</link>
 	    <link>shellscript</link>
@@ -732,10 +743,12 @@
 	    <link>video</link>
 	</icon>
 	<icon name="x-office-address-book">
+	    <link>gnome-mime-text-x-vcard</link>
 	    <link>stock_addressbook</link>
 	    <link>contents2</link>
 	</icon>
 	<icon name="x-office-calendar">
+	    <link>gnome-mime-text-x-vcalendar</link>
 	    <link>stock_calendar</link>
 	    <link>plan</link>
 	    <link>vcalendar</link>
@@ -759,6 +772,7 @@
 	</icon>
 	<icon name="x-office-presentation">
 	    <link>gnome-mime-application-magicpoint</link>
+	    <link>gnome-mime-application-vnd.ms-powerpoint</link>
 	    <link>gnome-mime-application-vnd.oasis.opendocument.presentation</link>
 	    <link>gnome-mime-application-vnd.stardivision.impress</link>
 	    <link>gnome-mime-application-vnd.sun.xml.impress</link>
@@ -805,6 +819,7 @@
 	<icon name="network-server">
 	    <link>gnome-fs-server</link>
 	    <link>gnome-mime-x-directory-smb-server</link>
+	    <link>gnome-mime-x-directory-nfs-server</link>
 	    <link>server</link>
 	    <link>redhat-network-server</link>
 	</icon>
@@ -870,6 +885,7 @@
 	</icon>
 	<icon name="dialog-question">
 	    <link>gtk-dialog-question</link>
+	    <link>stock_dialog-question</link>
 	</icon>
 	<icon name="dialog-warning">
 	    <link>gtk-dialog-warning</link>
