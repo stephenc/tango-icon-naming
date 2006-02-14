@@ -624,9 +624,11 @@
 	</icon>
 	<icon name="network-wired">
 	    <link>gnome-dev-ethernet</link>
+	    <link>nm-device-wired</link>
 	</icon>
 	<icon name="network-wireless">
 	    <link>gnome-dev-wavelan</link>
+	    <link>nm-device-wireless</link>
 	</icon>
 	<icon name="printer">
 	    <link>gnome-dev-printer</link>
@@ -914,6 +916,9 @@
 	</icon>
 	<icon name="media-playlist-shuffle">
 	    <link>stock_shuffle</link>
+	</icon>
+	<icon name="network-offline">
+	    <link>nm-no-connection</link>
 	</icon>
 	<icon name="network-wireless-encrypted">
 	    <link>gnome-dev-wavelan-encrypted</link>
