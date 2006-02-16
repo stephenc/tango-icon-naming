@@ -1,3 +1,8 @@
+2006-02-15  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Add links to the new network status icon
+	names, for the old gnome-netstatus icon names
+
 2006-02-14  Rodney Dawes  <dobey@novell.com>
 
 	* legacy-icon-mapping.xml: Add some links for NetworkManager icons

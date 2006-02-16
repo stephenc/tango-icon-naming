@@ -917,8 +917,24 @@
 	<icon name="media-playlist-shuffle">
 	    <link>stock_shuffle</link>
 	</icon>
+	<icon name="network-error">
+	    <link>gnome-netstatus-error</link>
+	</icon>
+	<icon name="network-idle">
+	    <link>gnome-netstatus-idle</link>
+	</icon>
 	<icon name="network-offline">
+	    <link>gnome-netstatus-disconn</link>
 	    <link>nm-no-connection</link>
+	</icon>
+	<icon name="network-receive">
+	    <link>gnome-netstatus-rx</link>
+	</icon>
+	<icon name="network-transmit">
+	    <link>gnome-netstatus-tx</link>
+	</icon>
+	<icon name="network-transmit-receive">
+	    <link>gnome-netstatus-txrx</link>
 	</icon>
 	<icon name="network-wireless-encrypted">
 	    <link>gnome-dev-wavelan-encrypted</link>
