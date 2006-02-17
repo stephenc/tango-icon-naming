@@ -1,3 +1,7 @@
+2006-02-17  Rodney Dawes  <dobey@novell.com>
+
+	* configure.ac: Up versioon to 0.7.0 for release
+
 2006-02-15  Rodney Dawes  <dobey@novell.com>
 
 	* legacy-icon-mapping.xml: Add links to the new network status icon
