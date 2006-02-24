@@ -1,5 +1,9 @@
 2006-02-24  Rodney Dawes  <dobey@novell.com>
 
+	* configure.ac: Up version to 0.7.1 for release
+
+2006-02-24  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Move all the nm-* aliases to the network-*
 	icons under the status context
 	Add new network-wireless-{high,medium,low} status icons with links to
