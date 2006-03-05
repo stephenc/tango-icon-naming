@@ -898,10 +898,10 @@
 	</icon>
 	<icon name="folder-open">
 	    <link>stock_open</link>
+	    <link>folder_open</link>
 	</icon>
 	<icon name="folder-visiting">
 	    <link>gnome-fs-directory-visiting</link>
-	    <link>folder_open</link>
 	</icon>
 	<icon name="image-loading">
 	    <link>gnome-fs-loading-icon</link>
