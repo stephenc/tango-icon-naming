@@ -346,6 +346,22 @@
 	    <link>stock_new-window</link>
 	    <link>window_new</link>
 	</icon>
+	<icon name="zoom-best-fit">
+	    <link>gtk-zoom-fit</link>
+	    <link>stock_zoom-page</link>
+	</icon>
+        <icon name="zoom-in">
+            <link>gtk-zoom-in</link>
+	    <link>stock_zoom-in</link>
+        </icon>
+        <icon name="zoom-original">
+            <link>gtk-zoom-100</link>
+	    <link>stock_zoom-1</link>
+        </icon>
+        <icon name="zoom-out">
+            <link>gtk-zoom-out</link>
+	    <link>stock_zoom-out</link>
+        </icon>
     </context>
     <context dir="animations">
 	<icon name="process-idle">
