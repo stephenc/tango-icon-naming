@@ -1,3 +1,9 @@
+2006-04-17  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Declare standalone="yes" in the XML
+	declaration, to avoid having XML::Parser attempt to laod the DTD from
+	the same directory as the XML, when using libxml-sax-perl-expat
+
 2006-04-11  Rodney Dawes  <dobey@novell.com>
 
 	* legacy-icon-mapping.xml: Add links for zoom-* icons
