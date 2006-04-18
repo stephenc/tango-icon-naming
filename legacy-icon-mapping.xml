@@ -473,6 +473,10 @@
 	    <link>kfm</link>
 	    <link>redhat-filemanager</link>
 	</icon>
+	<icon name="system-software-update">
+	    <link>update-manager</link>
+	    <link>zen-icon</link>
+	</icon>
 	<icon name="system-users">
 	    <link>kuser</link>
 	    <link>config-users</link>
@@ -687,6 +691,7 @@
 	</icon>
 	<icon name="image-x-generic">
 	    <link>gnome-mime-image</link>
+	    <link>gnome-mime-application-vnd.oasis.opendocument.graphics</link>
 	    <link>gnome-mime-application-x-killustrator</link>
 	    <link>image</link>
 	</icon>
@@ -847,6 +852,8 @@
 	</icon>
 	<icon name="start-here">
 	    <link>gnome-main-menu</link>
+	    <link>distributor-logo</link>
+	    <link>novell-button</link>
 	</icon>
 	<icon name="user-desktop">
 	    <link>gnome-fs-desktop</link>
@@ -875,13 +882,13 @@
 	    <link>stock_volume</link>
 	</icon>
 	<icon name="audio-volume-low">
+	    <link>stock_volume-0</link>
 	    <link>stock_volume-min</link>
 	</icon>
 	<icon name="audio-volume-medium">
 	    <link>stock_volume-med</link>
 	</icon>
 	<icon name="audio-volume-muted">
-	    <link>stock_volume-0</link>
 	    <link>stock_volume-mute</link>
 	</icon>
 	<icon name="dialog-error">

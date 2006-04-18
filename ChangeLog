@@ -1,3 +1,11 @@
+2006-04-18  Rodney Dawes  <dobey@novell.com>
+
+	* legaciy-icon-mapping.xml: Add links to system-software-update for
+	update-manager and zen-icon
+	Add odg mime type as link to image-x-generic
+	Add distributor-logo and novell-button as links for start-here
+	Move stock_volume-0 to audio-volume-low instead of -muted
+
 2006-04-17  Rodney Dawes  <dobey@novell.com>
 
 	* legacy-icon-mapping.xml: Declare standalone="yes" in the XML
