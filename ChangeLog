@@ -1,5 +1,9 @@
 2006-04-21  Rodney Dawes  <dobey@novell.com>
 
+	* configure.ac: Up version to 0.7.2 for release
+
+2006-04-21  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Add gnome-character-map as a link
 	Add system-floppy as a link to the media-floppy icon
 	Add links for a few missing package types
