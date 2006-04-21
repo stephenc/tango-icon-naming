@@ -378,6 +378,7 @@
 	    <link>calc</link>
 	</icon>
 	<icon name="accessories-character-map">
+	    <link>gnome-character-map</link>
 	    <link>gucharmap</link>
 	    <link>kcharselect</link>
 	</icon>
@@ -630,6 +631,7 @@
 	<icon name="media-floppy">
 	    <link>gnome-dev-floppy</link>
 	    <link>gtk-floppy</link>
+	    <link>system-floppy</link>
 	    <link>3floppy_unmount</link>
 	</icon>
 	<icon name="media-jaz">
@@ -691,7 +693,6 @@
 	</icon>
 	<icon name="image-x-generic">
 	    <link>gnome-mime-image</link>
-	    <link>gnome-mime-application-vnd.oasis.opendocument.graphics</link>
 	    <link>gnome-mime-application-x-killustrator</link>
 	    <link>image</link>
 	</icon>
@@ -708,8 +709,12 @@
 	    <link>gnome-mime-application-x-cpio-compressed</link>
 	    <link>gnome-mime-application-x-deb</link>
 	    <link>gnome-mime-application-x-gzip</link>
+	    <link>gnome-mime-application-x-jar</link>
+	    <link>gnome-mime-application-x-lha</link>
+	    <link>gnome-mime-application-x-lhz</link>
 	    <link>gnome-mime-application-x-rar</link>
 	    <link>gnome-mime-application-x-rpm</link>
+	    <link>gnome-mime-application-x-stuffit</link>
 	    <link>gnome-mime-application-x-tar</link>
 	    <link>gnome-mime-application-x-tarz</link>
 	    <link>gnome-mime-application-x-7z-compressed</link>
@@ -724,6 +729,7 @@
 	<icon name="text-html">
 	    <link>gnome-mime-text-html</link>
 	    <link>gnome-mime-text-vnd.wap.wml</link>
+	    <link>gnome-mime-application-vnd.oasis.opendocument.text-web</link>
 	    <link>gnome-mime-application-x-php</link>
 	    <link>gnome-mime-application-xhtml+xml</link>
 	    <link>html</link>
@@ -791,6 +797,19 @@
 	    <link>document</link>
 	    <link>package_wordprocessing</link>
 	</icon>
+	<icon name="x-office-document-template">
+	    <link>gnome-mime-application-vnd.oasis.opendocument.text-template</link>
+	    <link>gnome-mime-application-vnd.sun.xml.writer.template</link>
+	</icon>
+	<icon name="x-office-drawing">
+	    <link>gnome-mime-application-vnd.oasis.opendocument.graphics</link>
+	    <link>gnome-mime-application-vnd.oasis.opendocument.image</link>
+	    <link>gnome-mime-application-vnd.sun.xml.draw</link>
+	</icon>
+	<icon name="x-office-drawing-template">
+	    <link>gnome-mime-application-vnd.oasis.opendocument.graphics-template</link>
+	    <link>gnome-mime-application-vnd.sun.xml.draw.template</link>
+	</icon>
 	<icon name="x-office-presentation">
 	    <link>gnome-mime-application-magicpoint</link>
 	    <link>gnome-mime-application-vnd.ms-powerpoint</link>
@@ -798,6 +817,10 @@
 	    <link>gnome-mime-application-vnd.stardivision.impress</link>
 	    <link>gnome-mime-application-vnd.sun.xml.impress</link>
 	    <link>gnome-mime-application-x-kpresenter</link>
+	</icon>
+	<icon name="x-office-presentation-template">
+	    <link>gnome-mime-application-vnd.oasis.opendocument.presentation-template</link>
+	    <link>gnome-mime-application-vnd.sun.xml.impress.template</link>
 	</icon>
 	<icon name="x-office-spreadsheet">
 	    <link>gnome-mime-application-vnd.lotus-1-2-3</link>
@@ -810,11 +833,28 @@
 	    <link>gnome-mime-application-x-kspread</link>
 	    <link>spreadsheet</link>
 	</icon>
+	<icon name="x-office-spreadsheet-template">
+	    <link>gnome-mime-application-vnd.oasis.opendocument.spreadsheet-template</link>
+	    <link>gnome-mime-application-vnd.sun.xml.calc.template</link>
+	</icon>
     </context>
     <context dir="places">
 	<icon name="folder">
 	    <link>gnome-fs-directory</link>
 	    <link>stock_folder</link>
+	</icon>
+	<icon name="folder-remote-ftp">
+	    <link>gnome-fs-ftp</link>
+	</icon>
+	<icon name="folder-remote-nfs">
+	    <link>gnome-fs-nfs</link>
+	</icon>
+	<icon name="folder-remote-smb">
+	    <link>gnome-fs-smb</link>
+	    <link>gnome-mime-x-directory-smb-share</link>
+	</icon>
+	<icon name="folder-remote-ssh">
+	    <link>gnome-fs-ssh</link>
 	</icon>
 	<icon name="folder-remote">
 	    <link>gnome-fs-share</link>

@@ -1,3 +1,14 @@
+2006-04-21  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Add gnome-character-map as a link
+	Add system-floppy as a link to the media-floppy icon
+	Add links for a few missing package types
+	Add a link for opendocument text-web to text-html
+	Add x-office-*-template icons and links to them
+	Add x-office-drawing icon and links to it
+	Add links for specific folder-remote share types to preempt the links
+	to the generic folder-remote icon
+
 2006-04-18  Rodney Dawes  <dobey@novell.com>
 
 	* legaciy-icon-mapping.xml: Add links to system-software-update for
