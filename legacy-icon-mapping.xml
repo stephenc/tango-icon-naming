@@ -9,6 +9,7 @@
 	<icon name="application-exit">
 	    <link>gtk-quit</link>
 	    <link>exit</link>
+	    <link>xfce-system-exit</link>
 	</icon>
 	<icon name="appointment-new">
 	    <link>stock_new-appointment</link>
@@ -314,6 +315,7 @@
 	<icon name="system-lock-screen">
 	    <link>gnome-lockscreen</link>
 	    <link>lock</link>
+	    <link>xfce-system-lock</link>
 	</icon>
 	<icon name="system-log-out">
 	    <link>gnome-logout</link>
@@ -398,6 +400,7 @@
 	    <link>email</link>
 	    <link>mail_generic</link>
 	    <link>redhat-email</link>
+	    <link>xfce-mail</link>
 	</icon>
 	<icon name="internet-web-browser">
 	    <link>browser</link>
@@ -410,10 +413,12 @@
 	    <link>arts</link>
 	    <link>kcmsound</link>
 	    <link>multimedia</link>
+	    <link>xfce4-mixer</link>
 	</icon>
 	<icon name="office-calendar">
 	    <link>ximian-evolution-calendar</link>
 	    <link>date</link>
+	    <link>xfcalendar</link>
 	</icon>
 	<icon name="preferences-desktop-accessibility">
 	    <link>accessibility-directory</link>
@@ -446,6 +451,7 @@
 	<icon name="preferences-desktop-sound">
 	    <link>gnome-settings-sound</link>
 	    <link>knotify</link>
+	    <link>xfce4-sound</link>
 	</icon>
 	<icon name="preferences-desktop-theme">
 	    <link>gnome-settings-theme</link>
@@ -455,6 +461,7 @@
 	    <link>gnome-settings-background</link>
 	    <link>wallpaper</link>
 	    <link>background</link>
+	    <link>xfce4-backdrop</link>
 	</icon>
 	<icon name="preferences-system-network-proxy">
 	    <link>stock_proxy</link>
@@ -463,16 +470,19 @@
 	</icon>
 	<icon name="preferences-system-session">
 	    <link>gnome-session</link>
+	    <link>xfce4-session</link>
 	</icon>
 	<icon name="preferences-system-windows">
 	    <link>gnome-window-manager</link>
 	    <link>kcmkwm</link>
 	    <link>kwin</link>
+	    <link>xfwm4</link>
 	</icon>
 	<icon name="system-file-manager">
 	    <link>file-manager</link>
 	    <link>kfm</link>
 	    <link>redhat-filemanager</link>
+	    <link>xfce-filemanager</link>
 	</icon>
 	<icon name="system-software-update">
 	    <link>update-manager</link>
@@ -492,6 +502,7 @@
 	    <link>konsole</link>
 	    <link>openterm</link>
 	    <link>terminal</link>
+	    <link>xfce-terminal</link>
 	</icon>
     </context>
     <context dir="categories">
@@ -499,6 +510,7 @@
 	    <link>gnome-util</link>
 	    <link>package_utilities</link>
 	    <link>redhat-accessories</link>
+	    <link>xfce-utils</link> 
 	</icon>
 	<icon name="applications-development">
 	    <link>gnome-devel</link>
@@ -509,27 +521,32 @@
 	    <link>gnome-joystick</link>
 	    <link>package_games</link>
 	    <link>redhat-games</link>
+	    <link>xfce-games</link>
 	</icon>
 	<icon name="applications-graphics">
 	    <link>gnome-graphics</link>
 	    <link>package_graphics</link>
 	    <link>redhat-graphics</link>
+	    <link>xfce-graphics</link>
 	</icon>
 	<icon name="applications-internet">
 	    <link>gnome-globe</link>
 	    <link>stock_internet</link>
 	    <link>package_network</link>
 	    <link>redhat-internet</link>
+	    <link>xfce-internet</link>
 	</icon>
 	<icon name="applications-multimedia">
 	    <link>gnome-multimedia</link>
 	    <link>package_multimedia</link>
 	    <link>redhat-sound_video</link>
+	    <link>xfce-multimedia</link>
 	</icon>
 	<icon name="applications-office">
 	    <link>gnome-applications</link>
 	    <link>package_office</link>
 	    <link>redhat-office</link>
+	    <link>xfce-office</link>
 	</icon>
 	<icon name="applications-system">
 	    <link>gnome-system</link>
@@ -545,6 +562,7 @@
 	    <link>gtk-preferences</link>
 	    <link>redhat-preferences</link>
 	    <link>kcontrol</link>
+	    <link>xfce4-settings</link>
 	</icon>
 	<icon name="preferences-desktop-peripherals">
 	    <link>input_devices_settings</link>
@@ -552,6 +570,7 @@
 	<icon name="preferences-system">
 	    <link>package_settings</link>
 	    <link>redhat-system_settings</link>
+	    <link>xfce-system-settings</link>
 	</icon>
     </context>
     <context dir="devices">
@@ -607,12 +626,14 @@
 	    <link>gnome-dev-keyboard</link>
 	    <link>keyboard</link>
 	    <link>kxkb</link>
+	    <link>xfce4-keyboard</link>
 	</icon>
 	<icon name="input-mouse">
 	    <link>gnome-dev-mouse-ball</link>
 	    <link>gnome-dev-mouse-optical</link>
 	    <link>mouse</link>
 	    <link>yast_mouse</link>
+	    <link>xfce4-mouse</link>
 	</icon>
 	<icon name="media-cdrom">
 	    <link>gtk-cdrom</link>
@@ -658,10 +679,12 @@
 	    <link>printer1</link>
 	    <link>printmgr</link>
 	    <link>kjobviewer</link>
+	    <link>xfce-printer</link>
 	</icon>
 	<icon name="video-display">
 	    <link>chardevice</link>
 	    <link>display</link>
+	    <link>xfce4-display</link>
 	</icon>
     </context>
     <context dir="emblems">
@@ -908,6 +931,7 @@
 	    <link>emptytrash</link>
 	    <link>trashcan_empty</link>
 	    <link>gnome-stock-trash</link>
+	    <link>xfce-trash_empty</link>
 	</icon>
     </context>
     <context dir="status">
@@ -1020,6 +1044,7 @@
 	    <link>trashcan_full</link>
 	    <link>gnome-stock-trash-full</link>
 	    <link>stock_trash_full</link>
+	    <link>xfce-trash_full</link>
 	</icon>
 	<icon name="weather-clear">
 	    <link>stock_weather-sunny</link>
