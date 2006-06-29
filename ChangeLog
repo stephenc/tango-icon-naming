@@ -1,3 +1,9 @@
+2006-06-29  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Add links for various realmedia types
+
+	Fixes http://bugzilla.gnome.org/show_bug.cgi?id=340550
+
 2006-05-10  Daniele Favara <danjele@gmail.com>
 
 	* legacy-icon-mapping.xml: Add some links for XFCE

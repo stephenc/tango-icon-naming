@@ -789,6 +789,9 @@
 	</icon>
 	<icon name="video-x-generic">
 	    <link>gnome-mime-application-x-shockwave-flash</link>
+	    <link>gnome-mime-application-vnd.rn-realmedia</link>
+	    <link>gnome-mime-application-vnd.rn-realmedia-secure</link>
+	    <link>gnome-mime-application-vnd.rn-realmedia-vbr</link>
 	    <link>gnome-mime-video</link>
 	    <link>video</link>
 	</icon>
