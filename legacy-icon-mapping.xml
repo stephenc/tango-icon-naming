@@ -818,6 +818,7 @@
 	    <link>gnome-mime-application-x-abiword</link>
 	    <link>gnome-mime-application-x-applix-word</link>
 	    <link>gnome-mime-application-x-dvi</link>
+	    <link>gnome-mime-application-x-gzpostscript</link>
 	    <link>gnome-mime-application-x-kword</link>
 	    <link>gnome-mime-application-x-tex</link>
 	    <link>document</link>
