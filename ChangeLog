@@ -1,3 +1,9 @@
+2006-07-08  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Add link for application/x-scribus
+
+	Fixes http://bugzilla.gnome.org/show_bug.cgi?id=168873
+
 2006-06-29  Rodney Dawes  <dobey@novell.com>
 
 	* legacy-icon-mapping.xml: Add link for application/x-gzpostscript

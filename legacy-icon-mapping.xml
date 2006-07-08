@@ -820,6 +820,7 @@
 	    <link>gnome-mime-application-x-dvi</link>
 	    <link>gnome-mime-application-x-gzpostscript</link>
 	    <link>gnome-mime-application-x-kword</link>
+	    <link>gnome-mime-application-x-scribus</link>
 	    <link>gnome-mime-application-x-tex</link>
 	    <link>document</link>
 	    <link>package_wordprocessing</link>
