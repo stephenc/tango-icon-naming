@@ -1,3 +1,11 @@
+2006-07-09  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Move the link for the
+	gnome-settings-accessibility-technnologies name to the standard
+	preferences-desktop-accessibility icon
+	Remove preferences-desktop-assistive-technology
+	Add a link for gnome-modem to modem under devices
+
 2006-07-08  Rodney Dawes  <dobey@novell.com>
 
 	* legacy-icon-mapping.xml: Add link for application/x-scribus

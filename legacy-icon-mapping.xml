@@ -421,11 +421,9 @@
 	    <link>xfcalendar</link>
 	</icon>
 	<icon name="preferences-desktop-accessibility">
+	    <link>gnome-settings-accessibility-technologies</link>
 	    <link>accessibility-directory</link>
 	    <link>access</link>
-	</icon>
-	<icon name="preferences-desktop-assistive-technology">
-	    <link>gnome-settings-accessibility-technologies</link>
 	</icon>
 	<icon name="preferences-desktop-font">
 	    <link>gnome-settings-font</link>
@@ -660,6 +658,9 @@
 	</icon>
 	<icon name="media-zip">
 	    <link>gnome-dev-zipdisk</link>
+	</icon>
+	<icon name="modem">
+	    <link>gnome-modem</link>
 	</icon>
 	<icon name="multimedia-player">
 	    <link>gnome-dev-ipod</link>
