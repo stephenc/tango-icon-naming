@@ -1,3 +1,7 @@
+2006-07-10  Rodney Dawes  <dobey@novell.com>
+
+	* configure.ac: Up version to 0.7.3 for release
+
 2006-07-10  Niko Mirthes  <nmirthes@gmail.com>
 
 	* legacy-icon-mapping.xml: Update with some changes for KDE
