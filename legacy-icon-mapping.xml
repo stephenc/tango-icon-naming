@@ -330,6 +330,9 @@
 	    <link>stock_new-tab</link>
 	    <link>tab_new</link>
 	</icon>
+	<icon name="view-fullscreen">
+	    <link>window_fullscreen</link>
+	</icon>
 	<icon name="view-refresh">
 	    <link>gtk-refresh</link>
 	    <link>stock_refresh</link>
@@ -714,6 +717,10 @@
 	    <link>gnome-mime-application-x-font-sunos-news</link>
 	    <link>gnome-mime-application-x-font-ttf</link>
 	    <link>gnome-mime-x-font-afm</link>
+	    <link>font</link>
+	    <link>font_bitmap</link>
+	    <link>font_truetype</link>
+	    <link>font_type1</link>
 	</icon>
 	<icon name="image-x-generic">
 	    <link>gnome-mime-image</link>
@@ -800,6 +807,7 @@
 	    <link>gnome-mime-text-x-vcard</link>
 	    <link>stock_addressbook</link>
 	    <link>contents2</link>
+	    <link>vcard</link>
 	</icon>
 	<icon name="x-office-calendar">
 	    <link>gnome-mime-text-x-vcalendar</link>
@@ -825,6 +833,7 @@
 	    <link>gnome-mime-application-x-tex</link>
 	    <link>document</link>
 	    <link>package_wordprocessing</link>
+	    <link>wordprocessing</link>
 	</icon>
 	<icon name="x-office-document-template">
 	    <link>gnome-mime-application-vnd.oasis.opendocument.text-template</link>
@@ -846,6 +855,7 @@
 	    <link>gnome-mime-application-vnd.stardivision.impress</link>
 	    <link>gnome-mime-application-vnd.sun.xml.impress</link>
 	    <link>gnome-mime-application-x-kpresenter</link>
+	    <link>kpresenter_kpr</link>
 	</icon>
 	<icon name="x-office-presentation-template">
 	    <link>gnome-mime-application-vnd.oasis.opendocument.presentation-template</link>
@@ -1016,10 +1026,12 @@
 	    <link>nm-adhoc</link>
 	    <link>nm-device-wired</link>
 	    <link>nm-device-wireless</link>
+	    <link>connect_established</link>
 	</icon>
 	<icon name="network-offline">
 	    <link>gnome-netstatus-disconn</link>
 	    <link>nm-no-connection</link>
+	    <link>connect_no</link>
 	</icon>
 	<icon name="network-receive">
 	    <link>gnome-netstatus-rx</link>
@@ -1029,6 +1041,7 @@
 	</icon>
 	<icon name="network-transmit-receive">
 	    <link>gnome-netstatus-txrx</link>
+	    <link>connect_creating</link>
 	</icon>
 	<icon name="network-wireless-encrypted">
 	    <link>gnome-dev-wavelan-encrypted</link>
@@ -1061,33 +1074,24 @@
 	</icon>
 	<icon name="weather-few-clouds">
 	    <link>stock_weather-few-clouds</link>
-	    <link>cloudy1</link>
 	</icon>
 	<icon name="weather-few-clouds-night">
 	    <link>stock_weather-night-few-clouds</link>
 	</icon>
 	<icon name="weather-fog">
 	    <link>stock_weather-fog</link>
-	    <link>fog</link>
 	</icon>
 	<icon name="weather-overcast">
 	    <link>stock_weather-cloudy</link>
-	    <link>overcast</link>
 	</icon>
 	<icon name="weather-showers">
 	    <link>stock_weather-showers</link>
-	    <link>shower3</link>
-	</icon>
-	<icon name="weather-showers-scattered">
-	    <link>light_rain</link>
 	</icon>
 	<icon name="weather-snow">
 	    <link>stock_weather-snow</link>
-	    <link>snow4</link>
 	</icon>
 	<icon name="weather-storm">
 	    <link>stock_weather-storm</link>
-	    <link>tstorm3</link>
 	</icon>
     </context>
 </mapping>
