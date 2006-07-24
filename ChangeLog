@@ -1,5 +1,9 @@
 2006-07-24  Rodney Dawes  <dobey@novell.com>
 
+	* configure.ac: Up version to 0.7.4 for release
+
+2006-07-24  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Add links for new view-restore icon
 	This icon is the opposite action of view-fullscreen
 
