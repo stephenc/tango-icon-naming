@@ -343,6 +343,11 @@
 	    <link>reload_page</link>
 	    <link>reload3</link>
 	</icon>
+	<icon name="view-restore">
+	    <link>gtk-leave-fullscreen</link>
+	    <link>stock_leave-fullscreen</link>
+	    <link>window_nofullscreen</link>
+	</icon>
 	<icon name="view-sort-ascending">
 	    <link>gtk-sort-ascending</link>
 	</icon>
