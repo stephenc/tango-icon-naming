@@ -347,6 +347,10 @@
 	<icon name="view-sort-descending">
 	    <link>gtk-sort-descending</link>
 	</icon>
+	<icon name="window-close">
+	    <link>gtk-close</link>
+	    <link>stock_close</link>
+	</icon>
 	<icon name="window-new">
 	    <link>stock_new-window</link>
 	    <link>window_new</link>
