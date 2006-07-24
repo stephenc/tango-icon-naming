@@ -331,6 +331,8 @@
 	    <link>tab_new</link>
 	</icon>
 	<icon name="view-fullscreen">
+	    <link>gtk-fullscreen</link>
+	    <link>stock_fullscreen</link>
 	    <link>window_fullscreen</link>
 	</icon>
 	<icon name="view-refresh">
