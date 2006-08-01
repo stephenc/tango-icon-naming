@@ -1,3 +1,13 @@
+2006-08-01  Rodney Dawes  <dobey@novell.com>
+
+	* configure.ac: Up version to 0.8.0 for release
+
+	* legacy-icon-mapping.xml: Add mail-send and link gnome send icons
+	Rename drive/media-cdrom to -optical
+	Add media-flash, and link the gnome flash media icons here
+	Add security-high, security-medium, and security-low with links to
+	the stock_lock icons which these replace with better metaphors
+
 2006-07-24  Rodney Dawes  <dobey@novell.com>
 
 	* configure.ac: Up version to 0.7.4 for release

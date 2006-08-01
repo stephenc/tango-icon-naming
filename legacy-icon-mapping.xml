@@ -257,6 +257,11 @@
 	    <link>stock_mail-reply</link>
 	    <link>mail_reply</link>
 	</icon>
+	<icon name="mail-send">
+	    <link>gnome-stock-mail-snd</link>
+	    <link>stock_mail-send</link>
+	    <link>mail_send</link>
+	</icon>
 	<icon name="mail-send-receive">
 	    <link>stock_mail-send-receive</link>
 	</icon>
@@ -605,10 +610,6 @@
 	    <link>gnome-fs-client</link>
 	    <link>system</link>
 	</icon>
-	<icon name="drive-cdrom">
-	    <link>gnome-dev-cdrom</link>
-	    <link>gnome-dev-dvd</link>
-	</icon>
 	<icon name="drive-harddisk">
 	    <link>gtk-harddisk</link>
 	    <link>gnome-dev-harddisk</link>
@@ -619,15 +620,15 @@
 	    <link>yast_HD</link>
 	    <link>yast_idetude</link>
 	</icon>
+	<icon name="drive-optical">
+	    <link>drive-cdrom</link>
+	    <link>gnome-dev-cdrom</link>
+	    <link>gnome-dev-dvd</link>
+	</icon>
 	<icon name="drive-removable-media">
 	    <link>gnome-dev-removable</link>
 	    <link>gnome-dev-removable-usb</link>
 	    <link>gnome-dev-removable-1394</link>
-	    <link>gnome-dev-media-cf</link>
-	    <link>gnome-dev-media-memory</link>
-	    <link>gnome-dev-media-ms</link>
-	    <link>gnome-dev-media-sdmmc</link>
-	    <link>gnome-dev-media-sm</link>
 	    <link>usbpendrive_unmount</link>
 	</icon>
 	<icon name="input-gaming">
@@ -647,7 +648,23 @@
 	    <link>yast_mouse</link>
 	    <link>xfce4-mouse</link>
 	</icon>
-	<icon name="media-cdrom">
+	<icon name="media-flash">
+	    <link>gnome-dev-media-cf</link>
+	    <link>gnome-dev-media-ms</link>
+	    <link>gnome-dev-media-sdmmc</link>
+	    <link>gnome-dev-media-sm</link>
+	</icon>
+	<icon name="media-floppy">
+	    <link>gnome-dev-floppy</link>
+	    <link>gtk-floppy</link>
+	    <link>system-floppy</link>
+	    <link>3floppy_unmount</link>
+	</icon>
+	<icon name="media-jaz">
+	    <link>gnome-dev-jazdisk</link>
+	</icon>
+	<icon name="media-optical">
+	    <link>media-cdrom</link>
 	    <link>gtk-cdrom</link>
 	    <link>gnome-dev-cdrom-audio</link>
 	    <link>gnome-dev-disc-cdr</link>
@@ -660,15 +677,6 @@
 	    <link>cdrom_unmount</link>
 	    <link>cdwriter_unmount</link>
 	    <link>dvd_unmount</link>
-	</icon>
-	<icon name="media-floppy">
-	    <link>gnome-dev-floppy</link>
-	    <link>gtk-floppy</link>
-	    <link>system-floppy</link>
-	    <link>3floppy_unmount</link>
-	</icon>
-	<icon name="media-jaz">
-	    <link>gnome-dev-jazdisk</link>
 	</icon>
 	<icon name="media-zip">
 	    <link>gnome-dev-zipdisk</link>
@@ -1067,6 +1075,16 @@
 	</icon>
 	<icon name="network-wireless-medium">
 	    <link>nm-signal-50</link>
+	</icon>
+	<icon name="security-high">
+	    <link>stock_lock-ok</link>
+	</icon>
+	<icon name="security-low">
+	    <link>stock_lock-broken</link>
+	    <link>stock_lock-open</link>
+	</icon>
+	<icon name="security-medium">
+	    <link>stock_lock</link>
 	</icon>
 	<icon name="user-trash-full">
 	    <link>gnome-fs-trash-full</link>
