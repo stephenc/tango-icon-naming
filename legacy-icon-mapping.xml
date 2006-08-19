@@ -326,6 +326,9 @@
 	    <link>gnome-logout</link>
 	    <link>exit</link>
 	</icon>
+	<icon name="system-run">
+	    <link>gnome-run</link>
+	</icon>
 	<icon name="system-search">
 	    <link>gnome-searchtool</link>
 	    <link>search</link>
@@ -716,6 +719,9 @@
 	</icon>
     </context>
     <context dir="mimetypes">
+	<icon name="application-certificate">
+	    <link>stock_certificate</link>
+	</icon>
 	<icon name="application-x-executable">
 	    <link>gnome-fs-executable</link>
 	    <link>gnome-mime-application-x-executable</link>
