@@ -1,5 +1,9 @@
 2006-08-21  Rodney Dawes  <dobey@novell.com>
 
+	* configure.ac: Up version to 0.8.1 for release
+
+2006-08-21  Rodney Dawes  <dobey@novell.com>
+
 	* legacy-icon-mapping.xml: Add links for edit-select-all
 
 	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=7764
