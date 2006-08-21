@@ -102,6 +102,9 @@
 	    <link>gtk-redo-ltr</link>
 	    <link>stock_redo</link>
 	</icon>
+	<icon name="edit-select-all">
+	    <link>stock_select-all</link>
+	</icon>
 	<icon name="edit-undo">
 	    <link>undo</link>
 	    <link>gtk-undo-ltr</link>
