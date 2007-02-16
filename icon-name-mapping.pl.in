@@ -15,6 +15,7 @@ my $PROGRAM = "icon-name-mapping";
 
 my $condir;
 my $LN_S = ($^O eq 'MSWin32' ? 'cp' : 'ln -s');
+my $mapdir = $ENV{INU_DATA_DIR} || "@DATADIR@";
 
 ############################################################################
 my @default_getopt_config = ("permute", "pass_through", "bundling",
@@ -82,6 +83,6 @@ context passsed in as the argument.
 if (not defined $condir) {
     usage ();
 } else {
-    my $iconmap = tls_load_mapping ("@DATADIR@/legacy-icon-mapping.xml");
+    my $iconmap = tls_load_mapping ("$mapdir/legacy-icon-mapping.xml");
     tls_map_icons ($iconmap, $condir);
 }
