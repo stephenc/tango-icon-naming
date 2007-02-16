@@ -3,7 +3,7 @@ AC_PREREQ(2.52)
 
 AC_INIT([icon-naming-utils], [0.8.1])
 AC_CONFIG_SRCDIR(icon-name-mapping.pl.in)
-AC_COPYRIGHT([Copyright 2005-2006 Novell, Inc.])
+AC_COPYRIGHT([Copyright 2005-2007 Novell, Inc.])
 
 AM_INIT_AUTOMAKE
 
