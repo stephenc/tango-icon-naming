@@ -103,6 +103,7 @@
 	    <link>stock_redo</link>
 	</icon>
 	<icon name="edit-select-all">
+	    <link>gtk-select-all</link>
 	    <link>stock_select-all</link>
 	</icon>
 	<icon name="edit-undo">
