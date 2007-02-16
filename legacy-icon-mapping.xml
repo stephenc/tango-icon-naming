@@ -98,18 +98,18 @@
 	    <link>editpaste</link>
 	</icon>
 	<icon name="edit-redo">
-	    <link>redo</link>
 	    <link>gtk-redo-ltr</link>
 	    <link>stock_redo</link>
+	    <link>redo</link>
 	</icon>
 	<icon name="edit-select-all">
 	    <link>gtk-select-all</link>
 	    <link>stock_select-all</link>
 	</icon>
 	<icon name="edit-undo">
-	    <link>undo</link>
 	    <link>gtk-undo-ltr</link>
 	    <link>stock_undo</link>
+	    <link>undo</link>
 	</icon>
 	<icon name="folder-new">
 	    <link>stock_new-dir</link>
@@ -231,8 +231,8 @@
 	</icon>
 	<icon name="mail-forward">
 	    <link>gnome-stock-mail-fwd</link>
-	    <link>mail_forward</link>
 	    <link>stock_mail-forward</link>
+	    <link>mail_forward</link>
 	</icon>
 	<icon name="mail-mark-junk">
 	    <link>stock_spam</link>
@@ -377,18 +377,22 @@
 	<icon name="zoom-best-fit">
 	    <link>gtk-zoom-fit</link>
 	    <link>stock_zoom-page</link>
+	    <link>viewmagfit</link>
 	</icon>
         <icon name="zoom-in">
             <link>gtk-zoom-in</link>
 	    <link>stock_zoom-in</link>
+	    <link>viewmag+</link>
         </icon>
         <icon name="zoom-original">
             <link>gtk-zoom-100</link>
 	    <link>stock_zoom-1</link>
+	    <link>viewmag1</link>
         </icon>
         <icon name="zoom-out">
             <link>gtk-zoom-out</link>
 	    <link>stock_zoom-out</link>
+	    <link>viewmag-</link>
         </icon>
     </context>
     <context dir="animations">

@@ -1,3 +1,7 @@
+2007-02-16  Rodney Dawes  <dobey@novell.com>
+
+	* legacy-icon-mapping.xml: Add links for the KDE viewmag icons
+
 2007-02-15  Rodney Dawes  <dobey@novell.com>
 
 	* icon-name-mapping.pl.in: Allow INU_DATA_DIR to override the path
