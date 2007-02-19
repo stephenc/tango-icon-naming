@@ -53,6 +53,10 @@
 	    <link>stock_properties</link>
 	    <link>stock_file-properites</link>
 	</icon>
+	<icon name="document-revert">
+	    <link>gtk-revert-to-saved</link>
+	    <link>revert</link>
+	</icon>
 	<icon name="document-save">
 	    <link>gtk-save</link>
 	    <link>stock_save</link>
