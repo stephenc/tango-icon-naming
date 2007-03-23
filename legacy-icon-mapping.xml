@@ -918,6 +918,7 @@
     <context dir="places">
 	<icon name="folder">
 	    <link>gnome-fs-directory</link>
+	    <link>gtk-directory</link>
 	    <link>stock_folder</link>
 	</icon>
 	<icon name="folder-remote-ftp">
