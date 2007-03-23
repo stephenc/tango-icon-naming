@@ -321,6 +321,7 @@
 	    <link>player_end</link>
 	</icon>
 	<icon name="process-stop">
+	    <link>gtk-cancel</link>
 	    <link>gtk-stop</link>
 	    <link>stock_stop</link>
 	    <link>stop</link>
