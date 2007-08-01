@@ -120,12 +120,14 @@
 	    <link>folder_new</link>
 	</icon>
 	<icon name="format-indent-less">
-	    <link>gtk-unindent</link>
+	    <link>gtk-indent-rtl</link>
+	    <link>gtk-unindent-ltr</link>
 	    <link>stock_text_unindent</link>
 	    <link>gnome-stock-text-unindent</link>
 	</icon>
 	<icon name="format-indent-more">
-	    <link>gtk-indent</link>
+	    <link>gtk-indent-ltr</link>
+	    <link>gtk-unindent-rtl</link>
 	    <link>stock_text_indent</link>
 	    <link>gnome-stock-text-indent</link>
 	</icon>

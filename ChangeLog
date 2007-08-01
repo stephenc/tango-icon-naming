@@ -1,3 +1,11 @@
+2007-08-01  Rodney Dawes  <dobey.pwns@gmail.com>
+
+	Patch from Luca Ferretti <elle.uca@libero.it>
+	
+	* legacy-icon-mapping.xml: Update gtk-{indent,unindent} links
+
+	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=11466
+
 2007-03-23  Rodney Dawes  <dobey@novell.com>
 
 	* legacy-icon-mapping.xml: Add gtk-directory link to folder icon
