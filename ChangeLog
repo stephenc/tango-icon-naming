@@ -1,3 +1,21 @@
+2007-08-13  Rodney Dawes  <dobey.pwns@gmail.com>
+
+	Some patching from Luca Ferretti <elle.uca@libero.it>
+	
+	* legacy-icon-mapping.xml:
+	Update document-revert links to use ltr/rtl forms
+	Add links for emblem-{noread,nowrite}
+	Add link for gtk-execute
+	Add links for gtk-spell-check and stock_spellcheck
+	Add link for stock_print-setup
+
+	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=11479
+	https://bugs.freedesktop.org/show_bug.cgi?id=11480
+	https://bugs.freedesktop.org/show_bug.cgi?id=11481
+	https://bugs.freedesktop.org/show_bug.cgi?id=11482
+	https://bugs.freedesktop.org/show_bug.cgi?id=11507
+	https://bugs.freedesktop.org/show_bug.cgi?id=11532
+
 2007-08-01  Rodney Dawes  <dobey.pwns@gmail.com>
 
 	Patch from Luca Ferretti <elle.uca@libero.it>

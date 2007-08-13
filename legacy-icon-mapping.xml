@@ -38,6 +38,9 @@
 	    <link>gtk-open</link>
 	    <link>fileopen</link>
 	</icon>
+	<icon name="document-page-setup">
+	    <link>stock_print-setup</link>
+	</icon>
 	<icon name="document-print">
 	    <link>gtk-print</link>
 	    <link>stock_print</link>
@@ -54,7 +57,8 @@
 	    <link>stock_file-properites</link>
 	</icon>
 	<icon name="document-revert">
-	    <link>gtk-revert-to-saved</link>
+	    <link>gtk-revert-to-saved-ltr</link>
+	    <link>gtk-revert-to-saved-rtl</link>
 	    <link>revert</link>
 	</icon>
 	<icon name="document-save">
@@ -339,6 +343,7 @@
 	</icon>
 	<icon name="system-run">
 	    <link>gnome-run</link>
+	    <link>gtk-execute</link>
 	</icon>
 	<icon name="system-search">
 	    <link>gnome-searchtool</link>
@@ -348,6 +353,10 @@
 	<icon name="tab-new">
 	    <link>stock_new-tab</link>
 	    <link>tab_new</link>
+	</icon>
+	<icon name="tools-check-spelling">
+	    <link>gtk-spell-check</link>
+	    <link>stock_spellcheck</link>
 	</icon>
 	<icon name="view-fullscreen">
 	    <link>gtk-fullscreen</link>
@@ -731,6 +740,12 @@
     <context dir="emblems">
 	<icon name="emblem-important">
 	    <link>stock_mail-priority-high</link>
+	</icon>
+	<icon name="emblem-readonly">
+	    <link>emblem-nowrite</link>
+	</icon>
+	<icon name="emblem-unreadable">
+	    <link>emblem-noread</link>
 	</icon>
     </context>
     <context dir="mimetypes">
