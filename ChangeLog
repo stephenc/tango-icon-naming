@@ -1,5 +1,11 @@
 2007-08-13  Rodney Dawes  <dobey.pwns@gmail.com>
 
+	* legacy-icon-mapping.xml: Link help-about to gtk-about
+
+	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=11168
+
+2007-08-13  Rodney Dawes  <dobey.pwns@gmail.com>
+
 	Some patching from Luca Ferretti <elle.uca@libero.it>
 	
 	* legacy-icon-mapping.xml:

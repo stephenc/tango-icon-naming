@@ -231,6 +231,10 @@
 	    <link>stock_up</link>
 	    <link>up</link>
 	</icon>
+	<icon name="help-about">
+	    <link>gtk-about</link>
+	    <link>stock_about</link>
+	</icon>
 	<icon name="list-add">
 	    <link>gtk-add</link>
 	    <link>add</link>
