@@ -26,6 +26,7 @@ fi
 AC_CONFIG_FILES([
 Makefile
 icon-naming-utils.pc
+icon-naming-utils-uninstalled.pc
 ])
 
 AC_OUTPUT

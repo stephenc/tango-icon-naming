@@ -1,5 +1,17 @@
 2007-08-13  Rodney Dawes  <dobey.pwns@gmail.com>
 
+	Original patch from Damien Carbery <damien.carbery@sun.com>
+
+	* Makefile.am: Update to include icon-naming-utils-uninstalled.pc.in
+
+	* configure.ac: Output icon-naming-utils-uninstalled.pc
+
+	* icon-naming-utils-uninstalled.pc.in: Add uninstalled pc.in file
+
+	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=10222
+
+2007-08-13  Rodney Dawes  <dobey.pwns@gmail.com>
+
 	* legacy-icon-mapping.xml: Link help-about to gtk-about
 
 	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=11168

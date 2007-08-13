@@ -6,7 +6,9 @@ libexec_SCRIPTS = icon-name-mapping
 	    -e "s#\@DATADIR\@#$(pkgdatadir)#g"	\
 	< $< > $@
 
-pkgconfig_in_files = icon-naming-utils.pc.in
+pkgconfig_in_files =				\
+	icon-naming-utils.pc.in			\
+	icon-naming-utils-uninstalled.pc.in
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = $(pkgconfig_in_files:.pc.in=.pc)
 
