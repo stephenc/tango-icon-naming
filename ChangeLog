@@ -1,3 +1,7 @@
+2007-08-15  Rodney Dawes  <dobey.pwns@gmail.com>
+
+	* legacy-icon-mapping.xml: Add emotes context, icons, and links
+
 2007-08-13  Rodney Dawes  <dobey.pwns@gmail.com>
 
 	* configure.ac: Up version to 0.8.3 for release

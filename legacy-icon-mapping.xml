@@ -752,6 +752,49 @@
 	    <link>emblem-noread</link>
 	</icon>
     </context>
+    <context dir="emotes">
+	<icon name="face-angel">
+	    <link>stock_smiley-18</link>
+	</icon>
+	<icon name="face-cool">
+	    <link>stock_smiley-15</link>
+	</icon>
+	<icon name="face-crying">
+	    <link>stock_smiley-11</link>
+	</icon>
+	<icon name="face-embarassed">
+	    <link>stock_smiley-12</link>
+	</icon>
+	<icon name="face-kiss">
+	    <link>stock_smiley-13</link>
+	</icon>
+	<icon name="face-monkey">
+	    <link>stock_smiley-22</link>
+	</icon>
+	<icon name="face-plain">
+	    <link>stock_smiley-8</link>
+	</icon>
+	<icon name="face-raspberry">
+	    <link>stock_smiley-10</link>
+	</icon>
+	<icon name="face-sad">
+	    <link>stock_smiley-4</link>
+	</icon>
+	<icon name="face-smile">
+	    <link>stock_smiley-1</link>
+	    <link>stock_smiley-2</link>
+	    <link>stock_smiley-7</link>
+	</icon>
+	<icon name="face-smile-big">
+	    <link>stock_smiley-6</link>
+	</icon>
+	<icon name="face-surprise">
+	    <link>stock_smiley-5</link>
+	</icon>
+	<icon name="face-wink">
+	    <link>stock_smiley-3</link>
+	</icon>
+    </context>
     <context dir="mimetypes">
 	<icon name="application-certificate">
 	    <link>stock_certificate</link>
