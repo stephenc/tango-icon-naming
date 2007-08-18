@@ -1,6 +1,13 @@
 2007-08-18  Rodney Dawes  <dobey.pwns@gmail.com>
 
-	* configure.ac: Up version to 0.8.3 for release
+	* Makefile.am: Handle the uninstalled pc file separate from the
+	normal pc file so we don't install it
+
+	See http://bugs.freedesktop.org/show_bug.cgi?id=10222
+
+2007-08-18  Rodney Dawes  <dobey.pwns@gmail.com>
+
+	* configure.ac: Up version to 0.8.4 for release
 
 2007-08-18  Rodney Dawes  <dobey.pwns@gmail.com>
 
