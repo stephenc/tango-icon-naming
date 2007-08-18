@@ -1115,6 +1115,9 @@
 	<icon name="image-missing">
 	    <link>gtk-missing-image</link>
 	</icon>
+	<icon name="mail-attachment">
+	    <link>stock_attach</link>
+	</icon>
 	<icon name="media-playlist-repeat">
 	    <link>stock_repeat</link>
 	</icon>
