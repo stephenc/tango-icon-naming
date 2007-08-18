@@ -255,12 +255,6 @@
 	<icon name="mail-mark-not-junk">
 	    <link>stock_not-spam</link>
 	</icon>
-	<icon name="mail-mark-read">
-	    <link>stock_mail-open</link>
-	</icon>
-	<icon name="mail-mark-unread">
-	    <link>stock_mail-unread</link>
-	</icon>
 	<icon name="mail-message-new">
 	    <link>stock_mail-compose</link>
 	    <link>gnome-stock-mail-new</link>
@@ -1117,6 +1111,15 @@
 	</icon>
 	<icon name="mail-attachment">
 	    <link>stock_attach</link>
+	</icon>
+	<icon name="mail-read">
+	    <link>stock_mail-open</link>
+	</icon>
+	<icon name="mail-replied">
+	    <link>stock_mail-replied</link>
+	</icon>
+	<icon name="mail-unread">
+	    <link>stock_mail-unread</link>
 	</icon>
 	<icon name="media-playlist-repeat">
 	    <link>stock_repeat</link>

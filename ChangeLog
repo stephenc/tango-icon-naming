@@ -1,5 +1,12 @@
 2007-08-18  Rodney Dawes  <dobey.pwns@gmail.com>
 
+	* legacy-icon-mapping.xml: Fix mail status icons to be status and not
+	link to the action counterparts
+
+	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=11468
+
+2007-08-18  Rodney Dawes  <dobey.pwns@gmail.com>
+
 	* legacy-icon-mapping.xml: Add mail-attachment link
 
 	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=11467
