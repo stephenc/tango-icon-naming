@@ -1,5 +1,9 @@
 2007-08-18  Rodney Dawes  <dobey.pwns@gmail.com>
 
+	* configure.ac: Up version to 0.8.5 for release
+
+2007-08-18  Rodney Dawes  <dobey.pwns@gmail.com>
+
 	* Makefile.am: Handle the uninstalled pc file separate from the
 	normal pc file so we don't install it
 
