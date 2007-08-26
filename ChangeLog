@@ -1,3 +1,7 @@
+2007-08-26  Rodney Dawes  <dobey.pwns@gmail.com>
+
+	* README: Update with example of usage
+
 2007-08-18  Rodney Dawes  <dobey.pwns@gmail.com>
 
 	* configure.ac: Up version to 0.8.5 for release
