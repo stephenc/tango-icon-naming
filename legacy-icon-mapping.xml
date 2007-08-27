@@ -590,6 +590,9 @@
 	    <link>redhat-office</link>
 	    <link>xfce-office</link>
 	</icon>
+	<icon name="applications-other">
+	    <link>gnome-other</link>
+	</icon>
 	<icon name="applications-system">
 	    <link>gnome-system</link>
 	    <link>package_system</link>
@@ -718,6 +721,9 @@
 	</icon>
 	<icon name="network-wireless">
 	    <link>gnome-dev-wavelan</link>
+	</icon>
+	<icon name="phone">
+	    <link>stock_cell-phone</link>
 	</icon>
 	<icon name="printer">
 	    <link>gnome-dev-printer</link>

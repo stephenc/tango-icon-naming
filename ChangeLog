@@ -1,3 +1,12 @@
+2007-08-27  Rodney Dawes  <dobey.pwns@gmail.com>
+
+	* legacy-icon-mapping.xml:
+	Add applications-other link to gnome-other
+	Add phone link to stock_cell-phone
+
+	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=12155
+	Fixes https://bugs.freedesktop.org/show_bug.cgi?id=12156
+
 2007-08-26  Rodney Dawes  <dobey.pwns@gmail.com>
 
 	* README: Update with example of usage
