@@ -388,7 +388,8 @@
 	    <link>stock_new-window</link>
 	    <link>window_new</link>
 	</icon>
-	<icon name="zoom-best-fit">
+	<icon name="zoom-fit-best">
+	    <link>zoom-best-fit</link>
 	    <link>gtk-zoom-fit</link>
 	    <link>stock_zoom-page</link>
 	    <link>viewmagfit</link>
