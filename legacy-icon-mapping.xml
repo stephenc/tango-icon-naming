@@ -846,6 +846,8 @@
 	    <link>gnome-mime-application-x-jar</link>
 	    <link>gnome-mime-application-x-lha</link>
 	    <link>gnome-mime-application-x-lhz</link>
+	    <link>gnome-mime-application-x-lzma</link>
+	    <link>gnome-mime-application-x-lzma-compressed-tar</link>
 	    <link>gnome-mime-application-x-rar</link>
 	    <link>gnome-mime-application-x-rpm</link>
 	    <link>gnome-mime-application-x-stuffit</link>
