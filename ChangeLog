@@ -1,3 +1,9 @@
+2008-08-12  Rodney Dawes  <dobey.pwns@gmail.com>
+
+	* legacy-icon-mapping.xml:
+	Add gnome-shutdown link for system-shutdown
+	Add inode-directory link for folder
+
 2008-01-09  Rodney Dawes  <dobey.pwns@gmail.com>
 
 	* legacy-icon-mapping.xml:
