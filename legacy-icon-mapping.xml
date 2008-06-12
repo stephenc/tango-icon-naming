@@ -348,6 +348,9 @@
 	    <link>search</link>
 	    <link>kfind</link>
 	</icon>
+	<icon name="system-shutdown">
+	    <link>gnome-shutdown</link>
+	</icon>
 	<icon name="tab-new">
 	    <link>stock_new-tab</link>
 	    <link>tab_new</link>
@@ -987,6 +990,7 @@
 	    <link>gnome-fs-directory</link>
 	    <link>gtk-directory</link>
 	    <link>stock_folder</link>
+	    <link>inode-directory</link>
 	</icon>
 	<icon name="folder-remote-ftp">
 	    <link>gnome-fs-ftp</link>
