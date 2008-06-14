@@ -1,4 +1,9 @@
-2008-08-12  Rodney Dawes  <dobey.pwns@gmail.com>
+2008-06-14  Rodney Dawes  <dobey.pwns@gmail.com>
+
+	* configure.ac:
+	Up version to 0.8.7 for release
+
+2008-06-12  Rodney Dawes  <dobey.pwns@gmail.com>
 
 	* legacy-icon-mapping.xml:
 	Add gnome-shutdown link for system-shutdown
