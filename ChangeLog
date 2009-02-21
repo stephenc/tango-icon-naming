@@ -1,6 +1,13 @@
 2009-02-20  Rodney Dawes  <dobey@gnome.org>
 
 	* legacy-icon-mapping.xml:
+	Add MS Office Open XML MIME type links
+
+	Fixes https://bugs.launchpad.net/ubuntu/+bug/222441
+
+2009-02-20  Rodney Dawes  <dobey@gnome.org>
+
+	* legacy-icon-mapping.xml:
 	Move some of the help links to help-contents instead of help-browser
 
 	Fixes http://bugs.freedesktop.org/show_bug.cgi?id=13048

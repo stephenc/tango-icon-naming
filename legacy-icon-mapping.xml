@@ -923,6 +923,8 @@
 	    <link>vcalendar</link>
 	</icon>
 	<icon name="x-office-document">
+	    <link>application-vnd.ms-word.document.macroEnabled.12</link>
+	    <link>application-vnd.openxmlformats-officedocument.wordprocessingml.document</link>
 	    <link>gnome-mime-application-msword</link>
 	    <link>gnome-mime-application-pdf</link>
 	    <link>gnome-mime-application-postscript</link>
@@ -943,6 +945,7 @@
 	    <link>wordprocessing</link>
 	</icon>
 	<icon name="x-office-document-template">
+	    <link>application-vnd.openxmlformats-officedocument.wordprocessingml.template</link>
 	    <link>gnome-mime-application-vnd.oasis.opendocument.text-template</link>
 	    <link>gnome-mime-application-vnd.sun.xml.writer.template</link>
 	</icon>
@@ -956,6 +959,8 @@
 	    <link>gnome-mime-application-vnd.sun.xml.draw.template</link>
 	</icon>
 	<icon name="x-office-presentation">
+	    <link>application-vnd.ms-powerpoint.presentation.macroEnabled.12</link>
+	    <link>application-vnd.openxmlformats-officedocument.presentationml.presentation</link>
 	    <link>gnome-mime-application-magicpoint</link>
 	    <link>gnome-mime-application-vnd.ms-powerpoint</link>
 	    <link>gnome-mime-application-vnd.oasis.opendocument.presentation</link>
@@ -965,10 +970,13 @@
 	    <link>kpresenter_kpr</link>
 	</icon>
 	<icon name="x-office-presentation-template">
+	    <link>application-vnd.openxmlformats-officedocument.presentationml.template</link>
 	    <link>gnome-mime-application-vnd.oasis.opendocument.presentation-template</link>
 	    <link>gnome-mime-application-vnd.sun.xml.impress.template</link>
 	</icon>
 	<icon name="x-office-spreadsheet">
+	    <link>application-vnd.ms-excel.sheet.macroEnabled.12</link>
+	    <link>application-vnd.openxmlformats-officedocument.spreadsheetml.sheet</link>
 	    <link>gnome-mime-application-vnd.lotus-1-2-3</link>
 	    <link>gnome-mime-application-vnd.ms-excel</link>
 	    <link>gnome-mime-application-vnd.oasis.opendocument.spreadsheet</link>
@@ -980,6 +988,7 @@
 	    <link>spreadsheet</link>
 	</icon>
 	<icon name="x-office-spreadsheet-template">
+	    <link>application-vnd.openxmlformats-officedocument.spreadsheetml.template</link>
 	    <link>gnome-mime-application-vnd.oasis.opendocument.spreadsheet-template</link>
 	    <link>gnome-mime-application-vnd.sun.xml.calc.template</link>
 	</icon>
