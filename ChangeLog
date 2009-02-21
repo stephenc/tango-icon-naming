@@ -1,3 +1,10 @@
+2009-02-20  Rodney Dawes  <dobey@gnome.org>
+
+	* legacy-icon-mapping.xml:
+	Remove the stock_mail-priority-high symlink
+
+	Fixes https://bugs.launchpad.net/ubuntu/+bug/319991
+
 2008-06-14  Rodney Dawes  <dobey.pwns@gmail.com>
 
 	* configure.ac:

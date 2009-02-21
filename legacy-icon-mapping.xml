@@ -746,9 +746,6 @@
 	</icon>
     </context>
     <context dir="emblems">
-	<icon name="emblem-important">
-	    <link>stock_mail-priority-high</link>
-	</icon>
 	<icon name="emblem-readonly">
 	    <link>emblem-nowrite</link>
 	</icon>
