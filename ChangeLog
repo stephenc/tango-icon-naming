@@ -1,6 +1,13 @@
 2009-02-20  Rodney Dawes  <dobey@gnome.org>
 
 	* legacy-icon-mapping.xml:
+	Move some of the help links to help-contents instead of help-browser
+
+	Fixes http://bugs.freedesktop.org/show_bug.cgi?id=13048
+
+2009-02-20  Rodney Dawes  <dobey@gnome.org>
+
+	* legacy-icon-mapping.xml:
 	Remove the stock_mail-priority-high symlink
 
 	Fixes https://bugs.launchpad.net/ubuntu/+bug/319991

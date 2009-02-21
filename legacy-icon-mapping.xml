@@ -235,6 +235,11 @@
 	    <link>gtk-about</link>
 	    <link>stock_about</link>
 	</icon>
+	<icon name="help-contents">
+	    <link>gtk-help</link>
+	    <link>stock_help</link>
+	    <link>help</link>
+	</icon>
 	<icon name="list-add">
 	    <link>gtk-add</link>
 	    <link>add</link>
@@ -440,9 +445,6 @@
 	    <link>khelpcenter</link>
 	    <link>susehelpcenter</link>
 	    <link>gnome-help</link>
-	    <link>gtk-help</link>
-	    <link>stock_help</link>
-	    <link>help</link>
 	</icon>
 	<icon name="internet-mail">
 	    <link>email</link>
